@@ -1,5 +1,6 @@
 import React from "react"
+import Layout from "../../components/Layout"
 
 export default function test() {
-  return <div>Test</div>
+  return <Layout>Test</Layout>
 }
