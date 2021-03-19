@@ -1,6 +1,7 @@
 import { graphql, Link } from "gatsby"
 import React from "react"
 import Layout from "../components/Layout"
+import Img from "gatsby-image"
 import { header, btn } from "../styles/home.module.css" // <-- changes in Gatsby v3 - CSS needs to be destructured to be used in the tags
 // The styles module is a CSS styling to scope one component of the site.
 //Only this component will have styling from this module
@@ -8,7 +9,11 @@ import { header, btn } from "../styles/home.module.css" // <-- changes in Gatsby
 
 export default function Home({ data }) {
   console.log(data)
-  const { title, description } = data.site.siteMetadata
+  // the data image is passed down as props once graphQl is exported below
+  // In an optimized image, the query needs to access is:
+  // data > file > childImageSharp > fluid
+  // then passed it on as <Img fluid={data.file.childImageSharp.fluid} />
+
   return (
     <Layout>
       <section className={header}>
@@ -20,21 +25,19 @@ export default function Home({ data }) {
             My Portfolio Projects
           </Link>
         </div>
-        <img src="/banner.png" alt="site banner" style={{ maxWidth: "100%" }} />
-        <p>
-          {title} - {description}
-        </p>
+        <Img fluid={data.file.childImageSharp.fluid} />
       </section>
     </Layout>
   )
 }
 
 export const query = graphql`
-  query SiteInfo {
-    site {
-      siteMetadata {
-        description
-        title
+  query Banner {
+    file(relativePath: { eq: "banner.png" }) {
+      childImageSharp {
+        fluid {
+          ...GatsbyImageSharpFluid
+        }
       }
     }
   }
