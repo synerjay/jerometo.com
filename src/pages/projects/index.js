@@ -17,7 +17,7 @@ export default function ProjectIndex({ data }) {
         <h3>Projects & Websites I've Created</h3>
         <div className={projects}>
           {projectArray.map(project => (
-            <Link to={"/projects" + project.frontmatter.slug} key={project.id}>
+            <Link to={"/projects/" + project.frontmatter.slug} key={project.id}>
               <div>
                 <h3>{project.frontmatter.title}</h3>
                 <p>{project.frontmatter.stack}</p>
