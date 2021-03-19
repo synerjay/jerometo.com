@@ -8,7 +8,8 @@ import { portfolio, projects } from "../../styles/projects.module.css"
 export default function ProjectIndex({ data }) {
   console.log(data)
 
-  const projectArray = data.allMarkdownRemark.nodes
+  const projectArray = data.projects.nodes
+  const contact = data.contact.siteMetadata.contact
 
   return (
     <Layout>
@@ -25,22 +26,33 @@ export default function ProjectIndex({ data }) {
             </Link>
           ))}
         </div>
+        <p>Like what you see? Email me at {contact} for a quote!</p>
       </div>
     </Layout>
   )
 }
 
 // export page query
+//You can also have multiple queries in one component
+// In this example, you can still use the same graphql function but now it has the projects query and the contact query
 
 export const query = graphql`
   query ProjectsPage {
-    allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
+    projects: allMarkdownRemark(
+      sort: { fields: frontmatter___date, order: DESC }
+    ) {
       nodes {
         frontmatter {
           title
           stack
           slug
         }
+        id
+      }
+    }
+    contact: site {
+      siteMetadata {
+        contact
       }
     }
   }
