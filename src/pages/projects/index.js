@@ -34,14 +34,13 @@ export default function ProjectIndex({ data }) {
 
 export const query = graphql`
   query ProjectsPage {
-    allMarkdownRemark {
+    allMarkdownRemark(sort: { fields: frontmatter___date, order: DESC }) {
       nodes {
         frontmatter {
-          slug
-          stack
           title
+          stack
+          slug
         }
-        id
       }
     }
   }
