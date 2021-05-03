@@ -3,7 +3,7 @@ title: Personal Pokedex
 stack: Next.js
 slug: personal-pokedex
 date: 2021-05-03T00:00:00+00:00
-thumb: ../images/thumbs/shoes.png
+thumb: ../images/thumbs/Pokemon-GO-GEN-4-Pokedex.png
 featuredImg: ../images/featured/shoes-banner.png
 ---
 
