@@ -3,6 +3,7 @@ import React from "react"
 import Layout from "../components/Layout"
 import Img from "gatsby-image"
 import { header, btn } from "../styles/home.module.css" // <-- changes in Gatsby v3 - CSS needs to be destructured to be used in the tags
+import Testing from "../components/Testing"
 // The styles module is a CSS styling to scope one component of the site.
 //Only this component will have styling from this module
 //The CSS styling scopes the specific HTML tags in this component
@@ -27,6 +28,7 @@ export default function Home({ data }) {
         </div>
         <Img fluid={data.file.childImageSharp.fluid} />
       </section>
+      <Testing />
     </Layout>
   )
 }
