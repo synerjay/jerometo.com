@@ -1,56 +1,26 @@
-import { Link } from "gatsby"
 import React from "react"
 import { portfolio, projects } from "../styles/projects.module.css"
+import Img from "gatsby-image"
+import { Link } from "gatsby"
+import Layout from "./Layout"
 
-export default function Testing() {
+export default function Testing({ projectArray, contact }) {
   return (
     <div className={portfolio}>
       <h2>Portfolio</h2>
       <h3>Projects & Websites I've Created</h3>
       <div className={projects}>
-        <Link to="/">
-          <div>
-            <h3>Testing Title</h3>
-            <p>Testing Description</p>
-          </div>
-        </Link>
-        <Link to="/">
-          <div>
-            <h3>Testing Title</h3>
-            <p>Testing Description</p>
-          </div>
-        </Link>
-        <Link to="/">
-          <div>
-            <h3>Testing Title</h3>
-            <p>Testing Description</p>
-          </div>
-        </Link>
-        <Link to="/">
-          <div>
-            <h3>Testing Title</h3>
-            <p>Testing Description</p>
-          </div>
-        </Link>
-        <Link to="/">
-          <div>
-            <h3>Testing Title</h3>
-            <p>Testing Description</p>
-          </div>
-        </Link>
-        <Link to="/">
-          <div>
-            <h3>Testing Title</h3>
-            <p>Testing Description</p>
-          </div>
-        </Link>
-        <Link to="/">
-          <div>
-            <h3>Testing Title</h3>
-            <p>Testing Description</p>
-          </div>
-        </Link>
+        {projectArray.map(project => (
+          <Link to={"/projects/" + project.frontmatter.slug} key={project.id}>
+            <div>
+              <Img fluid={project.frontmatter.thumb.childImageSharp.fluid} />
+              <h3>{project.frontmatter.title}</h3>
+              <p>{project.frontmatter.stack}</p>
+            </div>
+          </Link>
+        ))}
       </div>
+      <p>Like what you see? Email me at {contact} for a quote!</p>
     </div>
   )
 }

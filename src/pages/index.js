@@ -14,6 +14,8 @@ export default function Home({ data }) {
   // In an optimized image, the query needs to access is:
   // data > file > childImageSharp > fluid
   // then passed it on as <Img fluid={data.file.childImageSharp.fluid} />
+  const projectArray = data.projects.nodes
+  const contact = data.contact.siteMetadata.contact
 
   return (
     <Layout>
@@ -28,13 +30,37 @@ export default function Home({ data }) {
         </div>
         <Img fluid={data.file.childImageSharp.fluid} />
       </section>
-      <Testing />
+      <Testing projectArray={projectArray} contact={contact} />
     </Layout>
   )
 }
 
 export const query = graphql`
   query Banner {
+    projects: allMarkdownRemark(
+      sort: { fields: frontmatter___date, order: DESC }
+    ) {
+      nodes {
+        frontmatter {
+          title
+          stack
+          slug
+          thumb {
+            childImageSharp {
+              fluid {
+                ...GatsbyImageSharpFluid
+              }
+            }
+          }
+        }
+        id
+      }
+    }
+    contact: site {
+      siteMetadata {
+        contact
+      }
+    }
     file(relativePath: { eq: "banner.png" }) {
       childImageSharp {
         fluid {
