@@ -2,7 +2,6 @@ import React from "react"
 import { portfolio, projects } from "../styles/projects.module.css"
 import Img from "gatsby-image"
 import { Link } from "gatsby"
-import Layout from "./Layout"
 
 export default function Testing({ projectArray, contact }) {
   return (
