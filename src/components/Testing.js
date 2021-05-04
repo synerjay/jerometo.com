@@ -6,7 +6,7 @@ import Layout from "./Layout"
 
 export default function Testing({ projectArray, contact }) {
   return (
-    <div className={portfolio}>
+    <div className={portfolio} id="portfolio">
       <h2>Portfolio</h2>
       <h3>Projects & Websites I've Created</h3>
       <div className={projects}>
