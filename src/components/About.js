@@ -21,6 +21,7 @@ export default function About() {
           molestiae fugiat adipisci molestias sequi dolores voluptatum
           consequatur?
         </p>
+        <img src="http://unsplash.it/400/400" className="align-left slide-in" />
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
           optio dicta praesentium. Quae atque fugiat sed at ipsum ab consectetur
