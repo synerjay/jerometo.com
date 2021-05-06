@@ -74,11 +74,11 @@ footer p {
 
 .slide-in {
   opacity: 0;
-  transition: all 0.5s;
+  transition: all 0.3s;
 }
 
 .align-left.slide-in {
-  transform: translateX(-30%) scale(0.95);
+  transform: translateX(-10%) scale(0.95);
 }
 
 .align-right.slide-in {

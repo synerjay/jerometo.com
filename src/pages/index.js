@@ -49,7 +49,7 @@ export default function Home({ data }) {
         }
       })
     }
-    window.addEventListener("scroll", debounce(checkSlide))
+    window.addEventListener("scroll", debounce(checkSlide, 5))
   }, [])
 
   console.log(data)
