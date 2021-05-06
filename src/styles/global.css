@@ -78,7 +78,7 @@ footer p {
 }
 
 .align-left.slide-in {
-  transform: translateX(-10%) scale(0.95);
+  transform: translateY(10%) scale(0.95);
 }
 
 .align-right.slide-in {
