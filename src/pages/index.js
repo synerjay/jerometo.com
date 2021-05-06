@@ -1,5 +1,5 @@
 import { graphql, Link } from "gatsby"
-import React from "react"
+import React, { useEffect } from "react"
 import Layout from "../components/Layout"
 import Img from "gatsby-image"
 import { header, btn } from "../styles/home.module.css" // <-- changes in Gatsby v3 - CSS needs to be destructured to be used in the tags
@@ -10,6 +10,14 @@ import About from "../components/About"
 //The CSS styling scopes the specific HTML tags in this component
 
 export default function Home({ data }) {
+  function checkSlide(e) {
+    console.count(e)
+  }
+
+  useEffect(() => {
+    window.addEventListener("scroll", checkSlide)
+  }, [])
+
   console.log(data)
   // the data image is passed down as props once graphQl is exported below
   // In an optimized image, the query needs to access is:
