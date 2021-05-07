@@ -5,9 +5,9 @@ export default function About() {
   return (
     <section className={header} id="about">
       <div>
-        <h2 className="align-left slide-in">I am Jerome.</h2>
-        <h3>Explorer Extroardinaire</h3>
-        <p>React Engineer & Data Scientist</p>
+        <h2 className="slide-in">I am Jerome.</h2>
+        <h3 className="slide-in">Explorer Extroardinaire</h3>
+        <p className="slide-in">React Engineer & Data Scientist</p>
       </div>
       <div>
         <p>
