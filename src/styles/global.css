@@ -41,7 +41,16 @@ nav {
   display: grid;
   grid-template-columns: 1fr 1fr;
   margin: 40px auto;
+  transition: all 0.5s;
+  position: relative;
+  z-index: 1;
 }
+
+.fixed-nav nav {
+  position: fixed;
+  box-shadow: 0 5px rgba(0, 0, 0, 0.1);
+}
+
 nav .links {
   display: inline-block;
   text-align: right;
