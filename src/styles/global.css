@@ -63,8 +63,8 @@ footer p {
 }
 
 .align-left {
-  float: left;
-  margin-right: 20px;
+  /* float: left;
+  margin-right: 20px; */
 }
 
 .align-right {
@@ -87,5 +87,5 @@ footer p {
 
 .slide-in.active {
   opacity: 1;
-  transform: translateX(0%) scale(1);
+  transform: translateY(0%) scale(1);
 }

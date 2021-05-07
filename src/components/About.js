@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section className={header} id="about">
       <div>
-        <h2>I am Jerome.</h2>
+        <h2 className="align-left slide-in">I am Jerome.</h2>
         <h3>Explorer Extroardinaire</h3>
         <p>React Engineer & Data Scientist</p>
       </div>
@@ -21,7 +21,7 @@ export default function About() {
           molestiae fugiat adipisci molestias sequi dolores voluptatum
           consequatur?
         </p>
-        <img src="http://unsplash.it/400/400" className="align-left slide-in" />
+        {/* <img src="http://unsplash.it/400/400" className="align-left slide-in" /> */}
         <p>
           Lorem ipsum dolor sit amet consectetur adipisicing elit. Doloribus
           optio dicta praesentium. Quae atque fugiat sed at ipsum ab consectetur
