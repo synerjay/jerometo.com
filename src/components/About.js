@@ -9,7 +9,7 @@ export default function About() {
         <h3 className="slide-in">Explorer Extroardinaire</h3>
         <p className="slide-in">React Engineer & Data Scientist</p>
       </div>
-      <div>
+      <div className="slide-in">
         <p>
           {" "}
           Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid eum
