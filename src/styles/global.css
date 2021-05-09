@@ -20,6 +20,7 @@ body {
     rgb(8, 2, 94) 100%
   );
   background-repeat: no-repeat;
+  padding: 40 auto;
 }
 p {
   margin: 16px auto;
@@ -34,13 +35,17 @@ section {
 
 /* layout & nav */
 .layout {
-  max-width: 1200px;
-  margin: 0 auto;
+  /* max-width: 1200px; */
+  width: 100%;
 }
+
 nav {
+  background: black;
+  top: 0;
+  width: 100vw;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 40px auto;
+  margin: 0px;
   transition: all 0.5s;
   position: relative;
   z-index: 1;
