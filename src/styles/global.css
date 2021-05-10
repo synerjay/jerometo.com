@@ -29,10 +29,15 @@ p {
 
 section {
   height: 100vh;
+  padding: 30px 30px 30px 30px;
   /* width: 100vw; */
 }
-/* This section CSS class might have a problem in the future and should be revisited Portfolio part is NOT a section tag */
 
+/* This section CSS class might have a problem in the future and should be revisited Portfolio part is NOT a section tag */
+#portfolio {
+  height: 100%;
+  padding: 30px 30px 30px 30px;
+}
 /* layout & nav */
 .layout {
   max-width: 100%;
