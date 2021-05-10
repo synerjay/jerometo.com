@@ -35,19 +35,20 @@ section {
 
 /* layout & nav */
 .layout {
-  /* max-width: 1200px; */
-  width: 100%;
+  max-width: 100%;
+  /* width: 100%; */
 }
 
 nav {
   background: rgba(255, 255, 255, 0);
   top: 0;
-  width: 100vw;
+  width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  margin: 0px;
+  /* margin: auto; */
+  padding: 20px 50px 20px 20px;
   transition: all 0.5s;
-  position: relative;
+  position: fixed;
   z-index: 1;
 }
 

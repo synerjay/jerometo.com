@@ -36,8 +36,8 @@ export default function Home({ data }) {
 
     function fixNav() {
       if (window.scrollY > 0) {
-        document.querySelector(".layout").style.paddingTop =
-          nav.offsetHeight + "px"
+        // document.querySelector(".layout").style.paddingTop =
+        //   nav.offsetHeight + "px"
         document.querySelector(".layout").classList.add("fixed-nav")
       } else if (window.scrollY === 0) {
         document.querySelector(".layout").style.paddingTop = 0
