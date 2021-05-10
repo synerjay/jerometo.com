@@ -33,16 +33,15 @@ export default function Home({ data }) {
   useEffect(() => {
     const sliderImages = document.querySelectorAll(".slide-in")
     const nav = document.querySelector("#main")
-    const topOfNav = nav.offsetTop
 
     function fixNav() {
-      if (window.scrollY >= topOfNav) {
+      if (window.scrollY > 0) {
         document.querySelector(".layout").style.paddingTop =
           nav.offsetHeight + "px"
         document.querySelector(".layout").classList.add("fixed-nav")
-      } else {
-        document.body.style.paddingTop = 0
-        document.body.classList.remove("fixed-nav")
+      } else if (window.scrollY === 0) {
+        document.querySelector(".layout").style.paddingTop = 0
+        document.querySelector(".layout").classList.remove("fixed-nav")
       }
     }
 
