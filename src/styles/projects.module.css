@@ -26,3 +26,13 @@
   color: #ccc;
   margin-top: 4px;
 }
+
+.projects div Img {
+  transform: scale(1);
+  -webkit-transition: 2s ease-in-out;
+  transition: 2s ease-in-out;
+}
+
+.projects div:hover Img {
+  transform: scale(1.3);
+}
