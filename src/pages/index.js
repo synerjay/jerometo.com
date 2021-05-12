@@ -31,6 +31,7 @@ export default function Home({ data }) {
   // }
 
   useEffect(() => {
+    // Disabling Built-in CSS Gatsby styles
     let portfolioImage = document.querySelectorAll("img")
     portfolioImage.forEach(image => (image.style.transition = null))
 
