@@ -16,7 +16,10 @@ export default function Testing({ projectArray, contact }) {
             className="slide-in"
           >
             <div>
-              <Img fluid={project.frontmatter.thumb.childImageSharp.fluid} />
+              <Img
+                className="port-image"
+                fluid={project.frontmatter.thumb.childImageSharp.fluid}
+              />
               <h3>{project.frontmatter.title}</h3>
               <p>{project.frontmatter.stack}</p>
             </div>

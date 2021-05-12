@@ -31,6 +31,9 @@ export default function Home({ data }) {
   // }
 
   useEffect(() => {
+    let portfolioImage = document.querySelectorAll("img")
+    portfolioImage.forEach(image => (image.style.transition = null))
+
     const sliderImages = document.querySelectorAll(".slide-in")
     const nav = document.querySelector("#main")
 
