@@ -5,7 +5,7 @@
   padding: 0;
   text-decoration: none;
   font-family: "Montserrat";
-  color: white;
+  color: black;
 }
 html,
 body {
@@ -14,13 +14,15 @@ body {
   scroll-behavior: smooth;
 }
 body {
-  background: radial-gradient(
+  /* background: radial-gradient(
     at top left,
     rgb(243, 120, 5) 0%,
     rgb(8, 2, 94) 100%
-  );
+  ); */
+  background: #fff;
   background-repeat: no-repeat;
   padding: 40 auto;
+  color: #000;
 }
 p {
   margin: 16px auto;
@@ -45,7 +47,8 @@ section {
 }
 
 nav {
-  background: rgba(255, 255, 255, 0);
+  /* background: rgba(255, 255, 255, 0); */
+  background: #fff;
   top: 0;
   width: 100%;
   display: grid;
@@ -59,7 +62,8 @@ nav {
 
 .fixed-nav nav {
   position: fixed;
-  background: rgba(8, 2, 94, 1);
+  /* background: rgba(8, 2, 94, 1); */
+  background: #fff;
   box-shadow: 0 5px rgba(0, 0, 0, 0.1);
 }
 

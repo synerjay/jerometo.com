@@ -8,9 +8,9 @@ export default function Navbar() {
     <nav id="main">
       <h1>Jerome Tolentino</h1>
       <div className="links">
-        <Link to="/">Home</Link>
-        <Link to="/#about">About</Link>
-        <Link to="/#portfolio">Portfolio Projects</Link>
+        <Link to="/">About</Link>
+        <Link to="/#projects">Work</Link>
+        <Link to="/#contact">Contact</Link>
       </div>
     </nav>
   )
