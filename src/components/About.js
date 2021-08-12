@@ -5,7 +5,7 @@ export default function About() {
   return (
     <section className={header} id="about">
       <div>
-        <h2 className="slide-in">I am Jerome.</h2>
+        <h2 className="slide-in font-bold">I am Jerome.</h2>
         <h3 className="slide-in">Explorer Extroardinaire</h3>
         <p className="slide-in">React Engineer & Data Scientist</p>
       </div>

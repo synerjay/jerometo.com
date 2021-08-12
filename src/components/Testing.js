@@ -7,7 +7,8 @@ export default function Testing({ projectArray, contact }) {
   return (
     <div className={portfolio} id="portfolio">
       <h2 className="slide-in">Portfolio</h2>
-      <h3 className="slide-in"> Projects & Websites I've Created</h3>
+      <h3 className="slide-in text-xs"> Projects & Websites I've Created</h3>
+      <p className="text-xs">Blah</p>
       <div className={projects}>
         {projectArray.map(project => (
           <Link
