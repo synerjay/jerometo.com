@@ -73,8 +73,8 @@ export default function Home({ data }) {
   // In an optimized image, the query needs to access is:
   // data > file > childImageSharp > fluid
   // then passed it on as <Img fluid={data.file.childImageSharp.fluid} />
-  const projectArray = data.projects.nodes
-  const contact = data.contact.siteMetadata.contact
+  // const projectArray = data.projects.nodes
+  // const contact = data.contact.siteMetadata.contact
 
   return (
     <Layout>
