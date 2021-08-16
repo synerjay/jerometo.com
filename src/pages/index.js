@@ -10,63 +10,63 @@ import About from "../components/About"
 //The CSS styling scopes the specific HTML tags in this component
 
 export default function Home({ data }) {
-  function debounce(func, wait = 20, immediate = true) {
-    var timeout
-    return function () {
-      var context = this,
-        args = arguments
-      var later = function () {
-        timeout = null
-        if (!immediate) func.apply(context, args)
-      }
-      var callNow = immediate && !timeout
-      clearTimeout(timeout)
-      timeout = setTimeout(later, wait)
-      if (callNow) func.apply(context, args)
-    }
-  }
+  // function debounce(func, wait = 20, immediate = true) {
+  //   var timeout
+  //   return function () {
+  //     var context = this,
+  //       args = arguments
+  //     var later = function () {
+  //       timeout = null
+  //       if (!immediate) func.apply(context, args)
+  //     }
+  //     var callNow = immediate && !timeout
+  //     clearTimeout(timeout)
+  //     timeout = setTimeout(later, wait)
+  //     if (callNow) func.apply(context, args)
+  //   }
+  // }
 
   // function checkSlide(e) {
   //   console.count(e)
   // }
 
-  useEffect(() => {
-    // Disabling Built-in CSS Gatsby styles
-    let portfolioImage = document.querySelectorAll("img")
-    portfolioImage.forEach(image => (image.style.transition = null))
+  // useEffect(() => {
+  //   // Disabling Built-in CSS Gatsby styles
+  //   let portfolioImage = document.querySelectorAll("img")
+  //   portfolioImage.forEach(image => (image.style.transition = null))
 
-    const sliderImages = document.querySelectorAll(".slide-in")
-    const nav = document.querySelector("#main")
+  //   const sliderImages = document.querySelectorAll(".slide-in")
+  //   const nav = document.querySelector("#main")
 
-    function fixNav() {
-      if (window.scrollY > 0) {
-        document.querySelector(".layout").classList.add("fixed-nav")
-      } else if (window.scrollY === 0) {
-        document.querySelector(".layout").style.paddingTop = 0
-        document.querySelector(".layout").classList.remove("fixed-nav")
-      }
-    }
+  //   function fixNav() {
+  //     if (window.scrollY > 0) {
+  //       document.querySelector(".layout").classList.add("fixed-nav")
+  //     } else if (window.scrollY === 0) {
+  //       document.querySelector(".layout").style.paddingTop = 0
+  //       document.querySelector(".layout").classList.remove("fixed-nav")
+  //     }
+  //   }
 
-    function checkSlide() {
-      sliderImages.forEach(sliderImage => {
-        // half way through the image
-        const slideInAt =
-          window.scrollY + window.innerHeight - sliderImage.offsetHeight / 2
-        // bottom of the image
-        const imageBottom = sliderImage.offsetTop + sliderImage.offsetHeight
-        const isHalfShown = slideInAt > sliderImage.offsetTop
-        const isNotScrolledPast = window.scrollY < imageBottom
-        if (isHalfShown && isNotScrolledPast) {
-          sliderImage.classList.add("active")
-        } else {
-          sliderImage.classList.remove("active")
-        }
-      })
-    }
+  // function checkSlide() {
+  //   sliderImages.forEach(sliderImage => {
+  //     // half way through the image
+  //     const slideInAt =
+  //       window.scrollY + window.innerHeight - sliderImage.offsetHeight / 2
+  //     // bottom of the image
+  //     const imageBottom = sliderImage.offsetTop + sliderImage.offsetHeight
+  //     const isHalfShown = slideInAt > sliderImage.offsetTop
+  //     const isNotScrolledPast = window.scrollY < imageBottom
+  //     if (isHalfShown && isNotScrolledPast) {
+  //       sliderImage.classList.add("active")
+  //     } else {
+  //       sliderImage.classList.remove("active")
+  //     }
+  //   })
+  // }
 
-    window.addEventListener("scroll", fixNav)
-    window.addEventListener("scroll", debounce(checkSlide, 5))
-  }, [])
+  //   window.addEventListener("scroll", fixNav)
+  //   window.addEventListener("scroll", debounce(checkSlide, 5))
+  // }, [])
 
   console.log(data)
   // the data image is passed down as props once graphQl is exported below
@@ -82,15 +82,17 @@ export default function Home({ data }) {
         <div>
           <h2>Design</h2>
           <h3>Develop & Deploy</h3>
-          <p>UX designer & web developer based in Tokyo.</p>
+          <p className="font-bold text-green-400">
+            UX designer & web developer based in Tokyo.
+          </p>
           <Link className={btn} to="#portfolio">
             My Portfolio Projects
           </Link>
         </div>
-        <Img fluid={data.file.childImageSharp.fluid} />
+        <Img className="rounded-xl" fluid={data.file.childImageSharp.fluid} />
       </section>
-      <About />
-      <Testing projectArray={projectArray} contact={contact} />
+      {/* <About />
+      <Testing projectArray={projectArray} contact={contact} /> */}
     </Layout>
   )
 }

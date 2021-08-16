@@ -4,7 +4,7 @@ import Layout from "../components/Layout"
 export default function About() {
   return (
     <Layout>
-      <h2>Hello World</h2>
+      <h2 className="font-bold text-green-500">Hello World</h2>
       <p>
         {" "}
         Lorem ipsum dolor, sit amet consectetur adipisicing elit. Aliquid eum
