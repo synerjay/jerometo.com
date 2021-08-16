@@ -9,7 +9,7 @@ export default function Navbar() {
       <h1>Jerome Tolentino</h1>
       <div className="links">
         <Link to="/">About</Link>
-        <Link to="/projects">Work</Link>
+        <Link to="/work">Work</Link>
         <Link to="/contact">Contact</Link>
       </div>
     </nav>
