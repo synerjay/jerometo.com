@@ -3,71 +3,12 @@ import React, { useEffect } from "react"
 import Layout from "../components/Layout"
 import Img from "gatsby-image"
 import { header, btn } from "../styles/home.module.css" // <-- changes in Gatsby v3 - CSS needs to be destructured to be used in the tags
-import Testing from "../components/Testing"
-import About from "../components/About"
+
 // The styles module is a CSS styling to scope one component of the site.
 //Only this component will have styling from this module
 //The CSS styling scopes the specific HTML tags in this component
 
 export default function Home({ data }) {
-  // function debounce(func, wait = 20, immediate = true) {
-  //   var timeout
-  //   return function () {
-  //     var context = this,
-  //       args = arguments
-  //     var later = function () {
-  //       timeout = null
-  //       if (!immediate) func.apply(context, args)
-  //     }
-  //     var callNow = immediate && !timeout
-  //     clearTimeout(timeout)
-  //     timeout = setTimeout(later, wait)
-  //     if (callNow) func.apply(context, args)
-  //   }
-  // }
-
-  // function checkSlide(e) {
-  //   console.count(e)
-  // }
-
-  // useEffect(() => {
-  //   // Disabling Built-in CSS Gatsby styles
-  //   let portfolioImage = document.querySelectorAll("img")
-  //   portfolioImage.forEach(image => (image.style.transition = null))
-
-  //   const sliderImages = document.querySelectorAll(".slide-in")
-  //   const nav = document.querySelector("#main")
-
-  //   function fixNav() {
-  //     if (window.scrollY > 0) {
-  //       document.querySelector(".layout").classList.add("fixed-nav")
-  //     } else if (window.scrollY === 0) {
-  //       document.querySelector(".layout").style.paddingTop = 0
-  //       document.querySelector(".layout").classList.remove("fixed-nav")
-  //     }
-  //   }
-
-  // function checkSlide() {
-  //   sliderImages.forEach(sliderImage => {
-  //     // half way through the image
-  //     const slideInAt =
-  //       window.scrollY + window.innerHeight - sliderImage.offsetHeight / 2
-  //     // bottom of the image
-  //     const imageBottom = sliderImage.offsetTop + sliderImage.offsetHeight
-  //     const isHalfShown = slideInAt > sliderImage.offsetTop
-  //     const isNotScrolledPast = window.scrollY < imageBottom
-  //     if (isHalfShown && isNotScrolledPast) {
-  //       sliderImage.classList.add("active")
-  //     } else {
-  //       sliderImage.classList.remove("active")
-  //     }
-  //   })
-  // }
-
-  //   window.addEventListener("scroll", fixNav)
-  //   window.addEventListener("scroll", debounce(checkSlide, 5))
-  // }, [])
-
   console.log(data)
   // the data image is passed down as props once graphQl is exported below
   // In an optimized image, the query needs to access is:
@@ -79,20 +20,30 @@ export default function Home({ data }) {
   return (
     <Layout>
       <section className={header}>
-        <div>
+        <div className="w-full">
           <h2>Design</h2>
           <h3>Develop & Deploy</h3>
-          <p className="font-bold text-green-400">
-            UX designer & web developer based in Tokyo.
+          <p className="font-bold text-black">
+            UX designer & web developer based in Tokyo. Lorem ipsum dolor sit
+            amet consectetur adipisicing elit. Nihil provident itaque omnis quod
+            sunt quaerat, natus nobis unde sit ut quia reprehenderit, libero
+            voluptatibus nam consequatur excepturi eum iusto officiis?
           </p>
-          <Link className={btn} to="#portfolio">
+          <Link className="bg-black text-white p-3 rounded-lg" to="/work">
             My Portfolio Projects
           </Link>
         </div>
-        <Img className="rounded-xl" fluid={data.file.childImageSharp.fluid} />
+        <Img
+          style={{
+            borderRadius: "999px",
+            maxHeight: "400px",
+            maxWidth: "400px",
+            boxShadow:
+              "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+          }}
+          fluid={data.file.childImageSharp.fluid}
+        />
       </section>
-      {/* <About />
-      <Testing projectArray={projectArray} contact={contact} /> */}
     </Layout>
   )
 }

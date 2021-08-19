@@ -33,6 +33,10 @@ p {
   line-height: 1.5em;
 }
 
+.two:hover span {
+  width: 50%;
+}
+
 section {
   height: 100vh;
   padding: 30px 30px 30px 30px;
