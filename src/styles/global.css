@@ -3,11 +3,15 @@
 @tailwind utilities;
 
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap");
+@import url(//db.onlinewebfonts.com/c/4f9463b996339e2fc66a827c7dc21f63?family=Metrica);
+@import url(//db.onlinewebfonts.com/c/6cec834e2e8f2e4206567ed75e1281d4?family=Brandon+Grotesque+Bold);
 
 * {
   margin: 0;
   padding: 0;
   text-decoration: none;
+  /* font-family: "Brandon Grotesque Bold", "sans-serif"; */
+  /* font-family: "Metrica"; */
   font-family: "Montserrat";
   color: black;
 }
