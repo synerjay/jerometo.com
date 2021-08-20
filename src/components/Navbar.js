@@ -6,8 +6,9 @@ import React from "react"
 export default function Navbar() {
   return (
     <nav id="main">
-      <Link className="text-xl font-bold" to="/">
-        JEROME TOLENTINO
+      <Link className="flex items-center text-sm font-bold" to="/">
+        JEROME <h2 className="font-logo text-blue-900 text-6xl">JT</h2>{" "}
+        TOLENTINO
       </Link>
       <div className="links">
         <Link className="font-bold relative w-max two" to="/">
