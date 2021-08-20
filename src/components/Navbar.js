@@ -6,7 +6,7 @@ import React from "react"
 export default function Navbar() {
   return (
     <nav
-      className="flex flex-col items-center md:justify-between md:flex-row"
+      className="flex flex-col gap-y-1 md:gap-y-0 items-center md:justify-between md:flex-row"
       id="main"
     >
       <Link className="flex items-center" to="/">

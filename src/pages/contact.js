@@ -103,9 +103,9 @@ export default function Contact() {
           </div>
         </div>
 
-        <div class="">
+        <div class="w-full flex justify-center">
           <button
-            class="w-full border-2 border-black shadow-inner bg-white hover:bg-gray-200 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4"
+            class="w-1/4 h-10 border-2 border-black shadow-inner bg-white hover:bg-gray-200 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4"
             type="submit"
           >
             Send

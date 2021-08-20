@@ -14,7 +14,8 @@
   text-decoration: none;
   /* font-family: "Brandon Grotesque Bold", "sans-serif"; */
   /* font-family: "Metrica"; */
-  font-family: "Montserrat";
+  /* font-family: "Montserrat"; */
+  font-family: "Source Code Pro", "Montserrat";
   color: black;
 }
 html,
