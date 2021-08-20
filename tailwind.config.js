@@ -5,6 +5,8 @@ module.exports = {
     extend: {
       fontFamily: {
         logo: ["Metrica"],
+        first: ["Kumbh Sans"],
+        second: ["Krona One"],
       },
     },
   },
