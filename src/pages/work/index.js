@@ -14,7 +14,7 @@ export default function workIndex({ data }) {
         <div className="max-w-6xl mx-auto px-5 py-0 ">
           <div className="text-center mb-20">
             <h1 className=" title-font uppercase  mb-4 text-xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-3xl">
-              Major Works
+              Work
             </h1>
             {/* <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
               L'informatique est vaste et les langages naissent presque à tout
