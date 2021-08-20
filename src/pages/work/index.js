@@ -10,10 +10,10 @@ export default function workIndex({ data }) {
 
   return (
     <Layout>
-      <section className="text-gray-200 bg-white">
+      <section className="max-h-96  text-gray-200 bg-white h-auto">
         <div className="max-w-6xl mx-auto px-5 py-0 ">
           <div className="text-center mb-20">
-            <h1 className=" title-font uppercase  mb-4 text-2xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-6xl">
+            <h1 className=" title-font uppercase  mb-4 text-xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-3xl">
               Major Works
             </h1>
             {/* <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
@@ -56,13 +56,6 @@ export default function workIndex({ data }) {
                       devenir webdesigner, depuis tout petit j'étais déjà
                       familier à la couleur et du dessin. Lorem ipsum dolor sit
                       amet consectetur adipisicing elit. Quidem dolor deserunt
-                      blanditiis provident ad qui illo quo quia amet ab quos
-                      atque, a nulla debitis magni recusandae at repudiandae.
-                      Cumque? Lorem ipsum dolor, sit amet consectetur
-                      adipisicing elit. Labore officiis molestias deleniti quae
-                      explicabo voluptatibus vitae esse aliquid. Et quidem
-                      dolore quia dolorum temporibus magni, error corporis
-                      voluptas repellendus voluptate?
                     </p>
                   </div>
                 </div>

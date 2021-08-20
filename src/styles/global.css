@@ -91,7 +91,7 @@ nav {
   width: 100%;
   display: grid;
   grid-template-columns: 1fr 1fr;
-  padding: 20px 20px 20px 30px;
+  padding: 40px 40px 20px 40px;
   transition: background 1s ease 0s;
   /* transition: all 0.5s; */
   position: fixed;

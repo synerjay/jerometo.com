@@ -30,11 +30,25 @@ export default function Contact() {
     <Layout>
       <form
         id="contact-me"
-        class="w-full mx-auto max-w-3xl bg-white shadow p-8 text-gray-700 "
+        class="w-full mt-10 mx-auto max-w-3xl bg-white p-8 text-gray-700 "
       >
         {/* <h2 class="w-full my-2 text-3xl font-bold leading-tight my-5">
           Contact
         </h2> */}
+        <div className="text-center mb-20">
+          <h1 className=" title-font uppercase  mb-4 text-xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-3xl">
+            Contact
+          </h1>
+          {/* <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
+              L'informatique est vaste et les langages naissent presque à tout
+              moment, je fais tout mon possible pour être à la hauteur afin de
+              répondre au besoin de mes clients et d'apporter de l'aide aux
+              nouveaux développeurs.
+            </p> */}
+          <div className="flex mt-6 justify-center">
+            <div className="w-16 h-1 bg-indigo-500 inline-flex"></div>
+          </div>
+        </div>
 
         <div class="flex flex-wrap mb-6">
           <div class="relative w-full appearance-none label-floating">
