@@ -58,9 +58,9 @@ section {
   /* width: 100%; */
 }
 
-/* .content {
+.content {
   margin-top: 116px;
-} */
+}
 
 nav {
   /* background: rgba(255, 255, 255, 0); */
@@ -84,9 +84,11 @@ nav {
 }
 
 nav .links {
-  display: inline-block;
+  display: flex;
+  justify-content: flex-end;
   text-align: right;
   padding-right: 50px;
+  align-items: center;
 }
 nav a {
   display: inline-block;
