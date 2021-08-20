@@ -20,29 +20,33 @@ export default function Home({ data }) {
   return (
     <Layout>
       <section className={header}>
-        <div className="flex items-center justify-center w-full">
-          {/* <h2>Design</h2>
+        <div className="flex flex-col gap-y-7 md:gap-y-0 md:flex-row mt-10 items-center w-full">
+          <div className="flex items-center justify-center w-full md:w-8/12">
+            {/* <h2>Design</h2>
           <h3>Develop & Deploy</h3> */}
-          <p className=" text-black">
-            UX designer & web developer based in Tokyo. Lorem ipsum dolor sit
-            amet consectetur adipisicing elit. Nihil provident itaque omnis quod
-            sunt quaerat, natus nobis unde sit ut quia reprehenderit, libero
-            voluptatibus nam consequatur excepturi eum iusto officiis?
-          </p>
-          {/* <Link className="bg-black text-white p-3 rounded-lg" to="/work">
+            <p className="text-black w-10/12 ">
+              UX designer & web developer based in Tokyo. Lorem ipsum dolor sit
+              amet consectetur adipisicing elit. Nihil provident itaque omnis
+              quod sunt quaerat, natus nobis unde sit ut quia reprehenderit,
+              libero voluptatibus nam consequatur excepturi eum iusto officiis?
+            </p>
+            {/* <Link className="bg-black text-white p-3 rounded-lg" to="/work">
             My Portfolio Projects
           </Link> */}
+          </div>
+          <div className="w-1/2 md:w-1/4">
+            <Img
+              style={{
+                borderRadius: "999px",
+                maxHeight: "300px",
+                maxWidth: "300px",
+                boxShadow:
+                  "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
+              }}
+              fluid={data.file.childImageSharp.fluid}
+            />
+          </div>
         </div>
-        <Img
-          style={{
-            borderRadius: "999px",
-            maxHeight: "400px",
-            maxWidth: "400px",
-            boxShadow:
-              "0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04)",
-          }}
-          fluid={data.file.childImageSharp.fluid}
-        />
       </section>
     </Layout>
   )

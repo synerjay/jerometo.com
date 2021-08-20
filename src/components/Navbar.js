@@ -5,7 +5,10 @@ import React from "react"
 
 export default function Navbar() {
   return (
-    <nav id="main">
+    <nav
+      className="flex flex-col items-center md:justify-between md:flex-row"
+      id="main"
+    >
       <Link className="flex items-center" to="/">
         <h2 className="font-second font-bold text-3xl">JEROME</h2>{" "}
         <h2 className="font-logo text-indigo-500 text-5xl">JT</h2>{" "}
