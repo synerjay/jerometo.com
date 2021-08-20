@@ -32,10 +32,7 @@ export default function Contact() {
         id="contact-me"
         class="w-full mt-10 mx-auto max-w-3xl bg-white p-8 text-gray-700 "
       >
-        {/* <h2 class="w-full my-2 text-3xl font-bold leading-tight my-5">
-          Contact
-        </h2> */}
-        <div className="text-center mb-20">
+        <div className="text-center mb-10 md:mb-20">
           <h1 className=" title-font uppercase  mb-4 text-xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-3xl">
             Contact
           </h1>

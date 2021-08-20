@@ -1,6 +1,7 @@
 ---
 title: Trainer Trainer
 stack: Gatsby & Shopify
+description: Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 slug: trainer-trainer
 date: 2021-01-08T00:00:00+00:00
 thumb: ../images/thumbs/shoes.png

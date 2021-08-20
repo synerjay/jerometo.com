@@ -1,6 +1,7 @@
 ---
-title: Personal Pokedex
-stack: Next.js
+title: Trayn
+stack: React, Express, MongoDB, Node
+description: Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 slug: personal-pokedex
 date: 2021-05-03T00:00:00+00:00
 thumb: ../images/thumbs/Pokemon-GO-GEN-4-Pokedex.png

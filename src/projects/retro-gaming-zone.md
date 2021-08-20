@@ -1,6 +1,7 @@
 ---
 title: Retro Gaming Zone
 stack: Svelte & Firebase
+description: Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 slug: retro-gaming-zone
 date: 2021-01-03T00:00:00+00:00
 thumb: ../images/thumbs/gaming.png

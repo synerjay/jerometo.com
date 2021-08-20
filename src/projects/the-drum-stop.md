@@ -1,6 +1,7 @@
 ---
 title: The Drum Stop
 stack: Next.js
+description: Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 slug: the-drum-stop
 date: 2021-01-18T00:00:00+00:00
 thumb: ../images/thumbs/drums.png

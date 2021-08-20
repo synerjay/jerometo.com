@@ -1,6 +1,7 @@
 ---
 title: Skateboards2Go
 stack: Vue & Firebase
+description: Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
 slug: skateboards-to-go
 date: 2021-02-01T00:00:00+00:00
 thumb: ../images/thumbs/skate.png
