@@ -7,7 +7,7 @@ export default function Navbar() {
   return (
     <nav id="main">
       <Link className="flex items-center text-sm font-bold" to="/">
-        JEROME <h2 className="font-logo text-black text-6xl">JT</h2> TOLENTINO
+        JEROME <h2 className="font-logo text-black text-5xl">JT</h2> TOLENTINO
       </Link>
       <div className="links">
         <Link className="font-bold relative w-max two" to="/">

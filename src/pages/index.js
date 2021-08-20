@@ -20,18 +20,18 @@ export default function Home({ data }) {
   return (
     <Layout>
       <section className={header}>
-        <div className="w-full">
-          <h2>Design</h2>
-          <h3>Develop & Deploy</h3>
+        <div className="flex items-center justify-center w-full">
+          {/* <h2>Design</h2>
+          <h3>Develop & Deploy</h3> */}
           <p className="font-bold text-black">
             UX designer & web developer based in Tokyo. Lorem ipsum dolor sit
             amet consectetur adipisicing elit. Nihil provident itaque omnis quod
             sunt quaerat, natus nobis unde sit ut quia reprehenderit, libero
             voluptatibus nam consequatur excepturi eum iusto officiis?
           </p>
-          <Link className="bg-black text-white p-3 rounded-lg" to="/work">
+          {/* <Link className="bg-black text-white p-3 rounded-lg" to="/work">
             My Portfolio Projects
-          </Link>
+          </Link> */}
         </div>
         <Img
           style={{
