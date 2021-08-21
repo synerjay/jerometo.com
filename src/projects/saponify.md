@@ -1,7 +1,7 @@
 ---
 title: Saponify
 stack: Commerce.js, React, Stripe API, Tailwind CSS
-description: Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+description: An e-commerce site that sells artisan soaps with credit card transaction
 source: http://sourcecode.com
 live: http://livelink.com
 type: major

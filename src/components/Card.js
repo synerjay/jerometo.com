@@ -4,15 +4,15 @@ export default function Card({ project }) {
   const background =
     "https://images.unsplash.com/photo-1521185496955-15097b20c5fe?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1951&q=80"
   return (
-    <div class="p-4 w-full md:w-1/3 md:mb-0 mb-6 flex flex-col justify-center items-center max-w-sm mx-auto">
+    <div class="p-4 w-full md:w-1/3 md:mb-0 mb-0 flex flex-col justify-center items-center max-w-lg mx-auto">
       <div
-        class="bg-gray-300 h-56 w-full shadow-md bg-cover bg-center"
+        class="bg-gray-300 h-56 w-full border-2 border-black shadow-md bg-cover bg-center"
         style={{
           backgroundImage: `url(${background})`,
         }}
       ></div>
       {/* // Original Card start */}
-      <div className="p-10 -ml-7 -mt-16 md:w-full md:mb-0 mb-6 flex flex-col ">
+      <div className="p-7 md:p-5 -ml-2 md:-ml-10 -mt-16 md:w-full md:mb-0 mb-0 flex flex-col ">
         <div className="pattern-dots-md gray-light">
           <div className=" bg-white border-2 border-black p-4 transform translate-x-6 -translate-y-6  ">
             {/* <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-5 flex-shrink-0 p-2">
@@ -38,6 +38,24 @@ export default function Card({ project }) {
               <p className="leading-relaxed text-sm text-justify">
                 {project.description}
               </p>
+              <div className="flex flex-col space-y-2 mb-6">
+                {project.stack.split(", ").map(stack => (
+                  <div
+                    key={stack}
+                    className="text-center w-full text-white bg-indigo-400"
+                  >
+                    {stack}
+                  </div>
+                ))}
+              </div>
+              <div class="text-center mt-2 leading-none flex justify-between w-full">
+                <span class="border-2 border-black mr-3 cursor-pointer inline-flex items-center leading-none h-10 shadow-inner bg-white hover:bg-gray-200 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4">
+                  PROJECT LIVE
+                </span>
+                <span class="border-2 border-black cursor-pointer inline-flex items-center leading-none h-10 shadow-inner bg-white hover:bg-gray-200 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4">
+                  CODE
+                </span>
+              </div>
             </div>
           </div>
         </div>

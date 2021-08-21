@@ -1,7 +1,7 @@
 ---
 title: Heya Music Social
 stack: Django, React, PostgreSQL, Tailwind CSS
-description: Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+description: A social network that lets users see what songs their friends are currently listening to.
 source: http://sourcecode.com
 live: http://livelink.com
 type: major

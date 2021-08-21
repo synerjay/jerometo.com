@@ -1,7 +1,7 @@
 ---
 title: Trayn
 stack: React, Express, MongoDB, Node
-description: Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
+description: Weightlifting journal app that tracks users' progress in the gym
 source: http://sourcecode.com
 live: http://livelink.com
 type: major

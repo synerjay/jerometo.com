@@ -18,20 +18,14 @@ export default function workIndex({ data }) {
     <Layout>
       <section className="max-h-screen h-auto">
         <div className="max-w-6xl mx-auto px-5 py-0 ">
-          <div className="text-center mb-10 md:mb-20">
-            <h1 className="font-header title-font uppercase  mb-4 text-xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-3xl">
+          {/* <div className="text-center mb-0 md:mb-20">
+            <h1 className="font-header title-font uppercase  mb-2 text-xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-3xl">
               Work
             </h1>
-            {/* <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-              L'informatique est vaste et les langages naissent presque à tout
-              moment, je fais tout mon possible pour être à la hauteur afin de
-              répondre au besoin de mes clients et d'apporter de l'aide aux
-              nouveaux développeurs.
-            </p> */}
             <div className="flex mt-6 justify-center">
               <div className="w-16 h-1 bg-indigo-500 inline-flex"></div>
             </div>
-          </div>
+          </div> */}
           {/* Start of Wrapper of Cards */}
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 ">
             {/* Putt mapping cards here */}
