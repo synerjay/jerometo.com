@@ -33,7 +33,7 @@ export default function Contact() {
         class="w-full mt-10 mx-auto max-w-3xl bg-white p-8 text-gray-700 "
       >
         <div className="text-center mb-10 md:mb-20">
-          <h1 className=" title-font uppercase  mb-4 text-xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-3xl">
+          <h1 className="font-header title-font uppercase  mb-4 text-xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-3xl">
             Contact
           </h1>
           {/* <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">

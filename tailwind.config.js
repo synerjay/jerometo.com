@@ -7,6 +7,7 @@ module.exports = {
         logo: ["Metrica"],
         first: ["Kumbh Sans"],
         second: ["Krona One"],
+        header: ["Montserrat"],
       },
     },
   },
