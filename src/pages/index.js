@@ -24,7 +24,7 @@ export default function Home({ data }) {
           <div className="flex items-center justify-center w-full md:w-11/12   ">
             {/* <h2>Design</h2>
           <h3>Develop & Deploy</h3> */}
-            <p className="text-black w-full px-5 md:px-16">
+            <p className="text-black leading-9 text-justify w-full px-5 md:px-16">
               UX designer & web developer based in Tokyo. Lorem ipsum dolor sit
               amet consectetur adipisicing elit. Nihil provident itaque omnis
               quod sunt quaerat, natus nobis unde sit ut quia reprehenderit,
