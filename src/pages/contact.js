@@ -50,7 +50,7 @@ export default function Contact() {
         <div class="flex flex-wrap mb-6">
           <div class="relative w-full appearance-none label-floating">
             <input
-              class="tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-gray-200 border border-gray-200 rounded focus:outline-none focus:bg-white focus:border-gray-500"
+              class="tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border border-gray-200 focus:outline-none focus:bg-white focus:border-gray-500"
               id="name"
               type="text"
               placeholder="Your name"
@@ -68,7 +68,7 @@ export default function Contact() {
         <div class="flex flex-wrap mb-6">
           <div class="relative w-full appearance-none label-floating">
             <input
-              class="tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-gray-200 border border-gray-200 rounded focus:outline-none focus:bg-white focus:border-gray-500"
+              class="tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border border-gray-200 focus:outline-none focus:bg-white focus:border-gray-500"
               id="name"
               type="text"
               placeholder="Your email"
@@ -86,7 +86,7 @@ export default function Contact() {
         <div class="flex flex-wrap mb-6">
           <div class="relative w-full appearance-none label-floating">
             <textarea
-              class="autoexpand tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-gray-200 border border-gray-200 rounded focus:outline-none focus:bg-white focus:border-gray-500"
+              class="autoexpand tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border border-gray-200 focus:outline-none focus:bg-white focus:border-gray-500"
               id="message"
               type="text"
               placeholder="Message..."
