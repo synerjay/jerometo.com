@@ -12,18 +12,18 @@ export default function Contact() {
     )
 
     // TEXT AREA AUTO EXPAND
-    var textarea = document.querySelector("textarea.autoexpand")
+    //   var textarea = document.querySelector("textarea.autoexpand")
 
-    textarea.addEventListener("keydown", autosize)
+    //   textarea.addEventListener("keydown", autosize)
 
-    function autosize() {
-      var el = this
-      setTimeout(function () {
-        el.style.cssText = "height:auto; padding: 1.4rem .2rem .5rem"
+    //   function autosize() {
+    //     var el = this
+    //     setTimeout(function () {
+    //       el.style.cssText = "height:auto; padding: 1.4rem .2rem .5rem"
 
-        el.style.cssText = "height:" + el.scrollHeight + "px"
-      }, 0)
-    }
+    //       el.style.cssText = "height:" + el.scrollHeight + "px"
+    //     }, 0)
+    //   }
   }, [])
 
   return (
@@ -32,7 +32,7 @@ export default function Contact() {
         id="contact-me"
         class="w-full mt-10 mx-auto max-w-3xl p-8 text-gray-700 "
       >
-        <div className="text-center mb-10 md:mb-20">
+        <div className="text-center mb-10 md:mb-10">
           <h1 className="font-header title-font uppercase  mb-4 text-xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-3xl">
             Contact
           </h1>
@@ -86,7 +86,7 @@ export default function Contact() {
         <div class="flex flex-wrap mb-6">
           <div class="relative w-full appearance-none label-floating">
             <textarea
-              class="autoexpand tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border-2 border-black focus:outline-none focus:bg-white focus:border-indigo-700"
+              class="tracking-wide py-2 h-36  resize-none px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border-2 border-black focus:outline-none focus:bg-white focus:border-indigo-700"
               id="message"
               type="text"
               placeholder="YOUR MESSAGE"
