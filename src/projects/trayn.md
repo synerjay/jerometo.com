@@ -1,6 +1,6 @@
 ---
 title: Trayn
-stack: React, Express, MongoDB, Node
+stack: React, Node Express, MongoDB, Redux
 description: Weightlifting journal app that tracks users' progress in the gym
 source: http://sourcecode.com
 live: http://livelink.com
