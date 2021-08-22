@@ -49,10 +49,10 @@ export default function Card({ project }) {
                 ))}
               </div>
               <div class="text-center mt-2 leading-none flex justify-between w-full">
-                <span class="border-2 border-black mr-3 cursor-pointer inline-flex items-center leading-none h-10 shadow-inner bg-white hover:bg-indigo-400 transition ease-in-out duration-500 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4">
+                <span class="border-2 border-black mr-3 cursor-pointer inline-flex items-center leading-none h-10 shadow-inner bg-white hover:bg-indigo-400 hover:text-white transition ease-in-out duration-700 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4">
                   PROJECT LIVE
                 </span>
-                <span class="border-2 border-black cursor-pointer inline-flex items-center leading-none h-10 shadow-inner bg-white hover:bg-indigo-400 transition ease-in-out duration-500 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4">
+                <span class="border-2 border-black cursor-pointer inline-flex items-center leading-none h-10 shadow-inner bg-white hover:bg-indigo-400 hover:text-white transition ease-in-out duration-700 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4">
                   CODE
                 </span>
               </div>

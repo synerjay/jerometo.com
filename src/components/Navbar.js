@@ -13,7 +13,7 @@ export default function Navbar() {
         <h2 className="font-second font-bold text-3xl tracking-widest">
           JEROME
         </h2>{" "}
-        <h2 className="font-logo text-indigo-500 text-5xl">JT</h2>{" "}
+        <h2 className="font-logo text-indigo-600 text-5xl">JT</h2>{" "}
         <h2 className="font-second font-bold text-3xl tracking-widest">
           TOLENTINO
         </h2>
