@@ -50,17 +50,17 @@ export default function Contact() {
         <div class="flex flex-wrap mb-6">
           <div class="relative w-full appearance-none label-floating">
             <input
-              class="tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border border-gray-200 focus:outline-none focus:bg-white focus:border-gray-500"
+              class="tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border-2 border-black focus:outline-none focus:bg-white focus:border-indigo-700"
               id="name"
               type="text"
-              placeholder="Your name"
+              placeholder="YOUR NAME"
               required
             />
             <label
               for="name"
               class="absolute tracking-wide py-2 px-4 mb-4 opacity-0 leading-tight block top-0 left-0 cursor-text"
             >
-              Your name
+              YOUR NAME
             </label>
           </div>
         </div>
@@ -68,17 +68,17 @@ export default function Contact() {
         <div class="flex flex-wrap mb-6">
           <div class="relative w-full appearance-none label-floating">
             <input
-              class="tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border border-gray-200 focus:outline-none focus:bg-white focus:border-gray-500"
+              class="tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border-2 border-black focus:outline-none focus:bg-white focus:border-indigo-700"
               id="name"
               type="text"
-              placeholder="Your email"
+              placeholder="YOUR EMAIL"
               required
             />
             <label
               for="name"
               class="absolute tracking-wide py-2 px-4 mb-4 opacity-0 leading-tight block top-0 left-0 cursor-text"
             >
-              Your email
+              YOUR EMAIL
             </label>
           </div>
         </div>
@@ -86,23 +86,23 @@ export default function Contact() {
         <div class="flex flex-wrap mb-6">
           <div class="relative w-full appearance-none label-floating">
             <textarea
-              class="autoexpand tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border border-gray-200 focus:outline-none focus:bg-white focus:border-gray-500"
+              class="autoexpand tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border-2 border-black focus:outline-none focus:bg-white focus:border-indigo-700"
               id="message"
               type="text"
-              placeholder="Message..."
+              placeholder="YOUR MESSAGE"
             ></textarea>
             <label
               for="message"
               class="absolute tracking-wide py-2 px-4 mb-4 opacity-0 leading-tight block top-0 left-0 cursor-text"
             >
-              Message...
+              YOUR MESSAGE
             </label>
           </div>
         </div>
 
         <div class="w-full flex justify-center">
           <button
-            class="w-1/4 h-10 border-2 border-black shadow-inner bg-white hover:bg-gray-200 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4"
+            class="w-1/4 h-10 border-2 border-black shadow-inner bg-white hover:bg-indigo-500 transition ease-in-out duration-500 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4"
             type="submit"
           >
             Send

@@ -21,18 +21,18 @@ export default function Navbar() {
       <div className="links">
         <Link className="relative w-max two" to="/">
           <span className="uppercase font-header">About</span>{" "}
-          <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-indigo-500"></span>
-          <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-indigo-500"></span>
+          <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-1 ease-in-out duration-300 bg-indigo-500"></span>
+          <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-1 ease-in-out duration-300 bg-indigo-500"></span>
         </Link>
         <Link className="relative w-max two" to="/work">
           <span className="uppercase font-header">Work</span>
-          <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-indigo-500"></span>
-          <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-indigo-500"></span>
+          <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-1 ease-in-out duration-300 bg-indigo-500"></span>
+          <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-1 ease-in-out duration-300 bg-indigo-500"></span>
         </Link>
         <Link className="relative w-max two" to="/contact">
           <span className="uppercase font-header">Contact</span>{" "}
-          <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-1 bg-indigo-500"></span>
-          <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-1 bg-indigo-500"></span>
+          <span class="absolute -bottom-1 left-1/2 w-0 transition-all h-1 ease-in-out duration-300 bg-indigo-500"></span>
+          <span class="absolute -bottom-1 right-1/2 w-0 transition-all h-1 ease-in-out duration-300 bg-indigo-500"></span>
         </Link>
       </div>
     </nav>
