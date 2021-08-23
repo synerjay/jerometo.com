@@ -1,4 +1,5 @@
 import React from "react"
+import Img from "gatsby-image"
 
 export default function Card({ project }) {
   const background =
@@ -6,13 +7,15 @@ export default function Card({ project }) {
   return (
     <div class="p-4 w-full md:w-1/3 md:mb-0 mb-0 flex flex-col justify-center items-center max-w-lg mx-auto">
       <div
-        class="bg-gray-300 h-56 w-full border-2 border-black shadow-md bg-cover bg-center"
-        style={{
-          backgroundImage: `url(${background})`,
-        }}
-      ></div>
+        class="bg-gray-300 h-48 w-full border-2 border-black shadow-lg bg-cover bg-center"
+        // style={{
+        //   backgroundImage: `url(${background})`,
+        // }}
+      >
+        <Img fluid={project.thumb.childImageSharp.fluid} />
+      </div>
       {/* // Original Card start */}
-      <div className="p-7 md:p-5 -ml-2 md:-ml-10 -mt-16 md:w-full md:mb-0 mb-0 flex flex-col ">
+      <div className="p-7 md:p-5 -ml-7 md:-ml-10 -mt-5 md:w-full md:mb-0 mb-0 flex flex-col ">
         <div className="pattern-dots-md gray-light">
           <div className=" bg-white border-2 border-black p-4 transform translate-x-6 -translate-y-6  ">
             {/* <div className="w-10 h-10 inline-flex items-center justify-center rounded-full bg-green-100 text-green-500 mb-5 flex-shrink-0 p-2">

@@ -7,7 +7,7 @@ live: http://livelink.com
 type: major
 slug: personal-pokedex
 date: 2021-01-02T00:00:00+00:00
-thumb: ../images/thumbs/Pokemon-GO-GEN-4-Pokedex.png
+thumb: ../images/thumbs/traynapp.png
 featuredImg: ../images/featured/shoes-banner.png
 ---
 

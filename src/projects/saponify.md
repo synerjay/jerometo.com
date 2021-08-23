@@ -7,7 +7,7 @@ live: http://livelink.com
 type: major
 slug: real-kitchen-food
 date: 2021-01-03T00:00:00+00:00
-thumb: ../images/thumbs/food.png
+thumb: ../images/thumbs/saponifyapp.png
 featuredImg: ../images/featured/food-banner.png
 ---
 

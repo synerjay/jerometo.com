@@ -7,7 +7,7 @@ live: http://livelink.com
 type: major
 slug: the-dojo-coffee-house
 date: 2021-01-01T00:00:00+00:00
-thumb: ../images/thumbs/coffee.png
+thumb: ../images/thumbs/heyamusicapp.png
 featuredImg: ../images/featured/coffee-banner.png
 ---
 
