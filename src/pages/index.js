@@ -26,9 +26,9 @@ export default function Home({ data }) {
             <p className="text-black text-md leading-9 text-justify w-full px-5 md:px-16">
               Hello! I am Jerome, a full stack web developer and designer with
               diverse skills in various modern technologies. I am passionate
-              about building sleek innovative web applications as well as
-              contributing to open source projects. I invite you to get to know
-              me better by getting a copy of my{" "}
+              about building sleek innovative web applications and contributing
+              to open source projects. I invite you to get to know me better by
+              getting a copy of my{" "}
               <Link className="underline cursor-pointer font-bold hover:text-theme-accent">
                 resume
               </Link>{" "}
