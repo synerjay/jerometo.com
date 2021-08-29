@@ -9,7 +9,6 @@ import { header, btn } from "../styles/home.module.css" // <-- changes in Gatsby
 //The CSS styling scopes the specific HTML tags in this component
 
 export default function Home({ data }) {
-  console.log(data)
   // the data image is passed down as props once graphQl is exported below
   // In an optimized image, the query needs to access is:
   // data > file > childImageSharp > fluid
@@ -21,18 +20,22 @@ export default function Home({ data }) {
     <Layout>
       <section className={header}>
         <div className="flex flex-col gap-y-7 md:gap-y-0 md:gap-x-16 md:flex-row mt-0 md:mt-10 items-center w-full">
-          <div className="flex items-center justify-center w-full md:w-11/12   ">
+          <div className="flex flex-col items-center md:items-start w-full md:w-11/12   ">
             {/* <h2>Design</h2>
           <h3>Develop & Deploy</h3> */}
-            <p className="text-black font-normal leading-9 text-justify w-full px-5 md:px-16">
-              UX designer & web developer based in Tokyo. Lorem ipsum dolor sit
-              amet consectetur adipisicing elit. Nihil provident itaque omnis
-              quod sunt quaerat, natus nobis unde sit ut quia reprehenderit,
-              libero voluptatibus nam consequatur excepturi eum iusto officiis?
+            <p className="text-black text-md leading-9 text-justify w-full px-5 md:px-16">
+              Hello! I am Jerome. I am a full stack web developer and designer
+              based in Tokyo. I am passionate about building sleek innovative
+              web applications as well as contributing to open source projects.
+              I invite you to get to know me better by getting a copy of my
+              resume or contacting me directly.
             </p>
-            {/* <Link className="bg-black text-white p-3 rounded-lg" to="/work">
-            My Portfolio Projects
-          </Link> */}
+            <Link
+              className="border-2 mt-5 border-black mr-3 cursor-pointer inline-flex items-center leading-none h-10 shadow-inner bg-white hover:bg-theme-accent hover:text-white transition ease-in-out duration-700 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4 md:mx-16"
+              to="/work"
+            >
+              See my work
+            </Link>
           </div>
           <div className="w-1/2 mx-auto md:w-4/6  ">
             <Img
