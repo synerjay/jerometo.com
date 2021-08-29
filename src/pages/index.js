@@ -19,7 +19,7 @@ export default function Home({ data }) {
   return (
     <Layout>
       <section className={header}>
-        <div className="flex flex-col gap-y-7 md:gap-y-0 md:gap-x-16 md:flex-row mt-0 md:mt-10 items-center w-full">
+        <div className="flex flex-col-reverse gap-y-7 md:gap-y-0 md:gap-x-16 md:flex-row mt-2 md:mt-10 items-center w-full">
           <div className="flex flex-col items-center md:items-start w-full md:w-11/12   ">
             {/* <h2>Design</h2>
           <h3>Develop & Deploy</h3> */}
@@ -28,7 +28,18 @@ export default function Home({ data }) {
               diverse skills in various modern technologies. I am passionate
               about building sleek innovative web applications as well as
               contributing to open source projects. I invite you to get to know
-              me better by getting a copy of my resume or contacting me.
+              me better by getting a copy of my{" "}
+              <Link className="underline cursor-pointer font-bold hover:text-theme-accent">
+                resume
+              </Link>{" "}
+              or directly{" "}
+              <Link
+                className="underline cursor-pointer font-bold hover:text-theme-accent"
+                to="/contact"
+              >
+                contacting me
+              </Link>
+              .
             </p>
             <Link
               className="border-2 mt-5 border-black mr-3 cursor-pointer inline-flex items-center leading-none h-10 shadow-inner bg-white hover:bg-theme-accent hover:text-white transition ease-in-out duration-700 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4 md:mx-16"
