@@ -1,9 +1,9 @@
 ---
 title: Trayn
-stack: React, Node Express, MongoDB, Redux
+stack: React / Redux, Node, MongoDB, Express
 description: Weightlifting journal app that tracks users' progress in the gym
-source: http://sourcecode.com
-live: http://livelink.com
+source: https://github.com/synerjay/Trayn-Weightlift-Tracker
+live: http://trayn.herokuapp.com/
 type: major
 slug: personal-pokedex
 date: 2021-01-02T00:00:00+00:00

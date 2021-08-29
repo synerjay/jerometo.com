@@ -1,9 +1,9 @@
 ---
 title: Heya Music Social
-stack: Django REST Framework, React, PostgreSQL, Tailwind CSS
+stack: Django REST Framework, React / Redux, AWS S3 / PostgreSQL, Tailwind CSS
 description: A social network that lets users see what songs their friends are currently listening to.
-source: http://sourcecode.com
-live: http://livelink.com
+source: https://github.com/synerjay/Heya-Music-Social
+live: https://heya-music-social.herokuapp.com/
 type: major
 slug: the-dojo-coffee-house
 date: 2021-01-01T00:00:00+00:00

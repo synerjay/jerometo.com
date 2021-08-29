@@ -2,8 +2,8 @@
 title: Saponify
 stack: Commerce.js, React, Stripe API, Tailwind CSS
 description: An e-commerce site that sells artisan soaps with credit card transaction
-source: http://sourcecode.com
-live: http://livelink.com
+source: https://github.com/synerjay/Saponify
+live: https://saponify.netlify.app/
 type: major
 slug: real-kitchen-food
 date: 2021-01-03T00:00:00+00:00

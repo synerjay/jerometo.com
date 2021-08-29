@@ -78,7 +78,7 @@ export const query = graphql`
         contact
       }
     }
-    file(relativePath: { eq: "banner.png" }) {
+    file(relativePath: { eq: "profile.jpg" }) {
       childImageSharp {
         fluid {
           ...GatsbyImageSharpFluid
