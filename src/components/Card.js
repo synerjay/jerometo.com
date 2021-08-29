@@ -54,12 +54,14 @@ export default function Card({ project }) {
               <div className="text-center mt-2 leading-none flex justify-between w-full">
                 <a
                   href={project.live}
+                  target="_blank"
                   className="border-2 border-black mr-3 cursor-pointer inline-flex items-center leading-none h-10 shadow-inner bg-white hover:bg-theme-accent hover:text-white transition ease-in-out duration-700 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4"
                 >
                   PROJECT LIVE
                 </a>
                 <a
                   href={project.source}
+                  target="_blank"
                   className="border-2 border-black cursor-pointer inline-flex items-center leading-none h-10 shadow-inner bg-white hover:bg-theme-accent hover:text-white transition ease-in-out duration-700 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4"
                 >
                   CODE

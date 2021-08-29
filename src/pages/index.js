@@ -24,12 +24,11 @@ export default function Home({ data }) {
             {/* <h2>Design</h2>
           <h3>Develop & Deploy</h3> */}
             <p className="text-black text-md leading-9 text-justify w-full px-5 md:px-16">
-              Hello! I am Jerome. I am a full stack web developer and designer
-              with diverse skills in various modern technologies. I am
-              passionate about building sleek innovative web applications as
-              well as contributing to open source projects. I invite you to get
-              to know me better by getting a copy of my resume or contacting me
-              directly.
+              Hello! I am Jerome, a full stack web developer and designer with
+              diverse skills in various modern technologies. I am passionate
+              about building sleek innovative web applications as well as
+              contributing to open source projects. I invite you to get to know
+              me better by getting a copy of my resume or contacting me.
             </p>
             <Link
               className="border-2 mt-5 border-black mr-3 cursor-pointer inline-flex items-center leading-none h-10 shadow-inner bg-white hover:bg-theme-accent hover:text-white transition ease-in-out duration-700 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4 md:mx-16"
