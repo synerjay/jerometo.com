@@ -30,7 +30,10 @@ export default function Contact() {
     <Layout>
       <form
         id="contact-me"
-        class="w-full mt-10 mx-auto max-w-3xl p-8 text-gray-700 "
+        name="contact"
+        method="POST"
+        data-netlify="true"
+        className="w-full mt-10 mx-auto max-w-3xl p-8 text-gray-700 "
       >
         <div className="text-center mb-10 md:mb-10">
           <h1 className="font-header title-font uppercase  mb-4 text-xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-3xl">
@@ -47,62 +50,65 @@ export default function Contact() {
           </div>
         </div>
 
-        <div class="flex flex-wrap mb-6">
-          <div class="relative w-full appearance-none label-floating">
+        <div className="flex flex-wrap mb-6">
+          <div className="relative w-full appearance-none label-floating">
             <input
-              class="tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border-2 border-black focus:outline-none focus:border-theme-accent"
+              className="tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border-2 border-black focus:outline-none focus:border-theme-accent"
               id="name"
               type="text"
+              name="name"
               placeholder="YOUR NAME"
               required
             />
             <label
               for="name"
-              class="absolute tracking-wide py-2 px-4 mb-4 opacity-0 leading-tight block top-0 left-0 cursor-text"
+              className="absolute tracking-wide py-2 px-4 mb-4 opacity-0 leading-tight block top-0 left-0 cursor-text"
             >
               YOUR NAME
             </label>
           </div>
         </div>
 
-        <div class="flex flex-wrap mb-6">
-          <div class="relative w-full appearance-none label-floating">
+        <div className="flex flex-wrap mb-6">
+          <div className="relative w-full appearance-none label-floating">
             <input
-              class="tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border-2 border-black focus:outline-none focus:border-theme-accent"
+              className="tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border-2 border-black focus:outline-none focus:border-theme-accent"
               id="name"
-              type="text"
+              type="email"
+              name="email"
               placeholder="YOUR EMAIL"
               required
             />
             <label
               for="name"
-              class="absolute tracking-wide py-2 px-4 mb-4 opacity-0 leading-tight block top-0 left-0 cursor-text"
+              className="absolute tracking-wide py-2 px-4 mb-4 opacity-0 leading-tight block top-0 left-0 cursor-text"
             >
               YOUR EMAIL
             </label>
           </div>
         </div>
 
-        <div class="flex flex-wrap mb-6">
-          <div class="relative w-full appearance-none label-floating">
+        <div className="flex flex-wrap mb-6">
+          <div className="relative w-full appearance-none label-floating">
             <textarea
-              class="tracking-wide py-2 h-36  resize-none px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border-2 border-black focus:outline-none focus:border-theme-accent"
+              className="tracking-wide py-2 h-36  resize-none px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border-2 border-black focus:outline-none focus:border-theme-accent"
               id="message"
+              name="message"
               type="text"
               placeholder="YOUR MESSAGE"
             ></textarea>
             <label
               for="message"
-              class="absolute tracking-wide py-2 px-4 mb-4 opacity-0 leading-tight block top-0 left-0 cursor-text"
+              className="absolute tracking-wide py-2 px-4 mb-4 opacity-0 leading-tight block top-0 left-0 cursor-text"
             >
               YOUR MESSAGE
             </label>
           </div>
         </div>
 
-        <div class="w-full flex justify-center">
+        <div className="w-full flex justify-center">
           <button
-            class="w-1/4 h-10 border-2 border-black shadow-inner bg-white hover:bg-theme-accent hover:text-white transition ease-in-out duration-700 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4"
+            className="w-1/4 h-10 border-2 border-black shadow-inner bg-white hover:bg-theme-accent hover:text-white transition ease-in-out duration-700 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4"
             type="submit"
           >
             Send
