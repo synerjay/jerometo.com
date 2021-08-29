@@ -27,9 +27,9 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: "Web Warrior",
-    description: "web dev portfolio",
-    copyright: "This website is copyright 2021 Web Warrior",
+    title: "Jerome Tolentino | Full Stack Web Designer & Developer",
+    description: "Portfolio page for full stack developer Jerome Tolentino",
+    copyright: "This website is copyright 2021 Jerome Tolentino",
     contact: "tolent.jay@gmail.com",
   },
 }
