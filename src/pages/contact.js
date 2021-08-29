@@ -43,14 +43,14 @@ export default function Contact() {
               nouveaux développeurs.
             </p> */}
           <div className="flex mt-6 justify-center">
-            <div className="w-16 h-1 bg-indigo-500 inline-flex"></div>
+            <div className="w-16 h-1 bg-theme-accent inline-flex"></div>
           </div>
         </div>
 
         <div class="flex flex-wrap mb-6">
           <div class="relative w-full appearance-none label-floating">
             <input
-              class="tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border-2 border-black focus:outline-none focus:bg-white focus:border-indigo-700"
+              class="tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border-2 border-black focus:outline-none focus:border-theme-accent"
               id="name"
               type="text"
               placeholder="YOUR NAME"
@@ -68,7 +68,7 @@ export default function Contact() {
         <div class="flex flex-wrap mb-6">
           <div class="relative w-full appearance-none label-floating">
             <input
-              class="tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border-2 border-black focus:outline-none focus:bg-white focus:border-indigo-700"
+              class="tracking-wide py-2 px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border-2 border-black focus:outline-none focus:border-theme-accent"
               id="name"
               type="text"
               placeholder="YOUR EMAIL"
@@ -86,7 +86,7 @@ export default function Contact() {
         <div class="flex flex-wrap mb-6">
           <div class="relative w-full appearance-none label-floating">
             <textarea
-              class="tracking-wide py-2 h-36  resize-none px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border-2 border-black focus:outline-none focus:bg-white focus:border-indigo-700"
+              class="tracking-wide py-2 h-36  resize-none px-4 mb-3 leading-relaxed appearance-none block w-full bg-white border-2 border-black focus:outline-none focus:border-theme-accent"
               id="message"
               type="text"
               placeholder="YOUR MESSAGE"
@@ -102,7 +102,7 @@ export default function Contact() {
 
         <div class="w-full flex justify-center">
           <button
-            class="w-1/4 h-10 border-2 border-black shadow-inner bg-white hover:bg-indigo-500 hover:text-white transition ease-in-out duration-700 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4"
+            class="w-1/4 h-10 border-2 border-black shadow-inner bg-white hover:bg-theme-accent hover:text-white transition ease-in-out duration-700 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4"
             type="submit"
           >
             Send

@@ -9,6 +9,9 @@ module.exports = {
         second: ["Krona One"],
         header: ["Montserrat"],
       },
+      colors: {
+        "theme-accent": "#785b46",
+      },
     },
   },
   variants: {

@@ -78,7 +78,7 @@ section {
 .label-floating textarea:not(:placeholder-shown) ~ label {
   font-size: 0.8rem;
   transition: all 0.2s ease-in-out;
-  color: #6366f1;
+  color: #785b46;
   opacity: 1;
 }
 
