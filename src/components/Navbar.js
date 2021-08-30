@@ -9,13 +9,9 @@ export default function Navbar() {
       className="flex flex-col gap-y-1 md:gap-y-0 items-center md:justify-between md:flex-row"
       id="main"
     >
-      <Link className="flex items-center" to="/">
-        <h2 className="text-black font-second font-bold text-2xl md:text-3xl tracking-widest">
-          JEROME
-        </h2>{" "}
-        <h2 className="font-logo text-theme-accent text-3xl md:text-5xl">JT</h2>{" "}
-        <h2 className="text-black font-second font-bold text-2xl md:text-3xl tracking-widest">
-          TOLENTINO
+      <Link className="w-full" to="/">
+        <h2 className="text-black -ml-7 font-second font-bold text-2xl md:text-3xl tracking-widest">
+          JEROME TOLENTINO
         </h2>
       </Link>
       <div className="links">
