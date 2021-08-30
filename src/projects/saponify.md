@@ -1,7 +1,7 @@
 ---
 title: Saponify
 stack: Commerce.js, React, Stripe API, Tailwind CSS
-description: An e-commerce site that sells artisan soaps with credit card transaction
+description: An e-commerce site that sells artisan soaps with credit card transaction.
 source: https://github.com/synerjay/Saponify
 live: https://saponify.netlify.app/
 type: major

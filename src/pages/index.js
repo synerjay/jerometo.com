@@ -33,9 +33,13 @@ export default function Home({ data }) {
               about building sleek innovative web applications and contributing
               to open source projects. I invite you to get to know me better by
               getting a copy of my{" "}
-              <Link className="underline cursor-pointer font-bold hover:text-theme-accent">
+              <a
+                href="resume.pdf"
+                target="_blank"
+                className="underline cursor-pointer font-bold hover:text-theme-accent"
+              >
                 resume
-              </Link>{" "}
+              </a>{" "}
               or directly{" "}
               <Link
                 className="underline cursor-pointer font-bold hover:text-theme-accent"
