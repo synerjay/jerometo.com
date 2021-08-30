@@ -10,7 +10,7 @@ export default function Navbar() {
       id="main"
     >
       <Link className="w-full" to="/">
-        <h2 className="text-black -ml-7 font-second font-bold text-2xl md:text-3xl tracking-widest">
+        <h2 className="text-black -ml-0 font-second font-bold text-xl md:text-3xl tracking-widest">
           JEROME TOLENTINO
         </h2>
       </Link>

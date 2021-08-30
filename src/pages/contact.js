@@ -17,7 +17,7 @@ export default function Contact() {
 
   return (
     <Layout>
-      <div className="w-full mt-10 mx-auto max-w-3xl p-8 text-gray-700 ">
+      <div className="w-full mt-5 mx-auto max-w-3xl p-8 text-gray-700 ">
         <div className="text-center mb-7 md:mb-7">
           <h1 className="font-header title-font uppercase  mb-4 text-xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-3xl">
             Contact
@@ -35,7 +35,7 @@ export default function Contact() {
             <a
               target="_blank"
               href="https://github.com/synerjay"
-              className="w-7 h-7 hover:shadow-xl transform hover:-translate-y-1.5 transition duration-500"
+              className="w-7 h-7 hover:shadow-xl transform hover:text-theme-accent hover:-translate-y-1.5 transition duration-500"
             >
               <svg
                 aria-hidden="true"

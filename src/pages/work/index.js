@@ -15,7 +15,7 @@ export default function WorkIndex({ data }) {
 
   return (
     <Layout>
-      <section className="max-h-screen h-auto mt-40 md:-mt-2">
+      <section className="max-h-screen h-auto mt-30 md:-mt-2">
         <div className="max-w-6xl mx-auto px-5 py-0 ">
           {/* <div className="text-center mb-0 md:mb-20">
             <h1 className="font-header title-font uppercase  mb-2 text-xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-3xl">

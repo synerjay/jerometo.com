@@ -7,7 +7,7 @@ export default function Card({ project }) {
   return (
     <div className="p-4 w-full md:w-1/3 md:mb-0 mb-0 flex flex-col justify-center items-center max-w-lg mx-auto">
       <div
-        className="bg-gray-300 h-48 w-full border-2 border-black shadow-lg bg-cover bg-center"
+        className="bg-gray-300 h-30 md:h-48 w-full border-2 border-black shadow-lg bg-cover bg-center"
         // style={{
         //   backgroundImage: `url(${background})`,
         // }}
@@ -19,7 +19,7 @@ export default function Card({ project }) {
         <div className="pattern-dots-md gray-light">
           <div className=" bg-white border-2 border-black p-4 transform translate-x-6 -translate-y-6  ">
             <div className="flex-grow ">
-              <h2 className=" text-lg font-header uppercase title-font font-bold mb-0">
+              <h2 className="text-black text-lg font-header uppercase title-font font-bold mb-0">
                 {project.title}
               </h2>
               <p className="leading-relaxed text-xs text-justify">
