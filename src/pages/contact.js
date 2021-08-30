@@ -97,7 +97,14 @@ export default function Contact() {
             </a>
           </div>
         </div>
-        <form id="contact-me" name="contact" method="POST" data-netlify="true">
+        <form
+          id="contact-me"
+          netlify-honeypot="bot-field"
+          name="contact"
+          method="POST"
+          data-netlify="true"
+        >
+          <input type="hidden" name="form-name" value="contact" />
           <div className="flex flex-wrap mb-6">
             <div className="relative w-full appearance-none label-floating">
               <input
