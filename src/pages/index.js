@@ -27,7 +27,7 @@ export default function Home({ data }) {
           <div className="flex flex-col items-center md:items-start w-full md:w-11/12   ">
             {/* <h2>Design</h2>
           <h3>Develop & Deploy</h3> */}
-            <p className="text-black text-md leading-9 text-justify w-full px-5 md:px-16">
+            <p className="text-md leading-9 text-justify w-full px-5 md:px-16">
               Hello! I am Jerome, a full stack web developer and designer with
               diverse skills in various modern technologies. I am passionate
               about building sleek innovative web applications and contributing

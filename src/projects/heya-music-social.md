@@ -1,7 +1,7 @@
 ---
 title: Heya Music Social
 stack: Django REST Framework, React / Redux, AWS S3 / PostgreSQL, Tailwind CSS
-description: A social network that lets users see what songs their friends are currently listening to.
+description: A social network that lets users see what songs their friends are listening to.
 source: https://github.com/synerjay/Heya-Music-Social
 live: https://heya-music-social.herokuapp.com/
 type: major

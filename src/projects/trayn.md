@@ -1,7 +1,7 @@
 ---
 title: Trayn
 stack: React / Redux, Node, MongoDB, Express
-description: Weightlifting journal app that tracks users' progress in the gym
+description: Weightlifting journal app that tracks users' progress in the gym.
 source: https://github.com/synerjay/Trayn-Weightlift-Tracker
 live: http://trayn.herokuapp.com/
 type: major

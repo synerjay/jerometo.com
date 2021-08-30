@@ -10,11 +10,11 @@ export default function Navbar() {
       id="main"
     >
       <Link className="flex items-center" to="/">
-        <h2 className="font-second font-bold text-2xl md:text-3xl tracking-widest">
+        <h2 className="text-black font-second font-bold text-2xl md:text-3xl tracking-widest">
           JEROME
         </h2>{" "}
         <h2 className="font-logo text-theme-accent text-3xl md:text-5xl">JT</h2>{" "}
-        <h2 className="font-second font-bold text-2xl md:text-3xl tracking-widest">
+        <h2 className="text-black font-second font-bold text-2xl md:text-3xl tracking-widest">
           TOLENTINO
         </h2>
       </Link>
