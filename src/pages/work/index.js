@@ -1,18 +1,17 @@
 import { graphql, Link } from "gatsby"
-import React from "react"
+import React, { useEffect } from "react"
 import Layout from "../../components/Layout"
 import Img from "gatsby-image"
 import { portfolio, projects } from "../../styles/projects.module.css"
 import Card from "../../components/Card"
 
-export default function workIndex({ data }) {
+export default function WorkIndex({ data }) {
   const projectArray = data.projects.nodes
   const contact = data.contact.siteMetadata.contact
 
-  projectArray.map(project => {
-    console.log(project.frontmatter)
-    // console.log(project.frontmatter.stack)
-  })
+  useEffect(() => {
+    document.title = "Work | Jerome Tolentino"
+  }, [])
 
   return (
     <Layout>

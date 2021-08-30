@@ -12,20 +12,7 @@ export default function Contact() {
       },
       true
     )
-
-    // TEXT AREA AUTO EXPAND
-    //   var textarea = document.querySelector("textarea.autoexpand")
-
-    //   textarea.addEventListener("keydown", autosize)
-
-    //   function autosize() {
-    //     var el = this
-    //     setTimeout(function () {
-    //       el.style.cssText = "height:auto; padding: 1.4rem .2rem .5rem"
-
-    //       el.style.cssText = "height:" + el.scrollHeight + "px"
-    //     }, 0)
-    //   }
+    document.title = "Contact | Jerome Tolentino"
   }, [])
 
   return (

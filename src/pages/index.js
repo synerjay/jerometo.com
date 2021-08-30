@@ -16,6 +16,10 @@ export default function Home({ data }) {
   // const projectArray = data.projects.nodes
   // const contact = data.contact.siteMetadata.contact
 
+  useEffect(() => {
+    document.title = "About | Jerome Tolentino"
+  }, [])
+
   return (
     <Layout>
       <section className={header}>
