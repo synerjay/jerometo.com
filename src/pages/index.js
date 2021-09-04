@@ -3,6 +3,7 @@ import React, { useEffect } from "react"
 import Layout from "../components/Layout"
 import Img from "gatsby-image"
 import { header, btn } from "../styles/home.module.css" // <-- changes in Gatsby v3 - CSS needs to be destructured to be used in the tags
+import SEO from "../components/seo"
 
 // The styles module is a CSS styling to scope one component of the site.
 //Only this component will have styling from this module
@@ -13,15 +14,10 @@ export default function Home({ data }) {
   // In an optimized image, the query needs to access is:
   // data > file > childImageSharp > fluid
   // then passed it on as <Img fluid={data.file.childImageSharp.fluid} />
-  // const projectArray = data.projects.nodes
-  // const contact = data.contact.siteMetadata.contact
-
-  useEffect(() => {
-    document.title = "About | Jerome Tolentino"
-  }, [])
 
   return (
     <Layout>
+      <SEO />
       <section className={header}>
         <div className="flex flex-col-reverse gap-y-7 md:gap-y-0 md:gap-x-16 md:flex-row mt-2 md:mt-10 items-center w-full">
           <div className="flex flex-col items-center md:items-start w-full md:w-11/12   ">

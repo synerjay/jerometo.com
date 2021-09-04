@@ -1,7 +1,6 @@
 import React, { useEffect } from "react"
 import Layout from "../components/Layout"
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome"
-import { faGithub } from "@fortawesome/free-solid-svg-icons"
+import SEO from "../components/seo"
 
 export default function Contact() {
   useEffect(() => {
@@ -12,22 +11,16 @@ export default function Contact() {
       },
       true
     )
-    document.title = "Contact | Jerome Tolentino"
   }, [])
 
   return (
     <Layout>
+      <SEO title="Contact | Jerome Tolentino" />
       <div className="w-full mt-5 mx-auto max-w-3xl p-8 text-gray-700 ">
         <div className="text-center mb-7 md:mb-7">
           <h1 className="font-header title-font uppercase  mb-4 text-xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-3xl">
             Contact
           </h1>
-          {/* <p className="text-base leading-relaxed xl:w-2/4 lg:w-3/4 mx-auto">
-              L'informatique est vaste et les langages naissent presque à tout
-              moment, je fais tout mon possible pour être à la hauteur afin de
-              répondre au besoin de mes clients et d'apporter de l'aide aux
-              nouveaux développeurs.
-            </p> */}
           <div className="flex mt-6 justify-center">
             <div className="w-16 h-1 bg-theme-accent inline-flex"></div>
           </div>

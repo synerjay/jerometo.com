@@ -8,6 +8,7 @@ module.exports = {
   /* Your site config here */
   plugins: [
     "gatsby-plugin-postcss",
+    `gatsby-plugin-react-helmet`,
     `gatsby-transformer-remark`,
     "gatsby-transformer-sharp",
     "gatsby-plugin-sharp",
@@ -27,9 +28,12 @@ module.exports = {
     },
   ],
   siteMetadata: {
-    title: "Jerome Tolentino | Full Stack Web Designer & Developer",
-    description: "Portfolio page for full stack developer Jerome Tolentino",
-    copyright: "This website is copyright 2021 Jerome Tolentino",
+    title: "Jerome Tolentino | Full Stack Web Developer",
+    description: "Portfolio page for full stack web developer Jerome Tolentino",
+    author: `Jerome Tolentino`,
+    url: "http://www.jerometo.com",
+    image: "/images/metaImage.png",
+    copyright: "This website is copyrighted 2021 Jerome Tolentino",
     contact: "tolent.jay@gmail.com",
   },
 }

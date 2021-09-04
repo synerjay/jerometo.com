@@ -1,6 +1,7 @@
 import React, { useEffect } from "react"
 import { Link } from "gatsby"
 import Layout from "../components/Layout"
+import SEO from "../components/seo"
 
 export default function NotFound() {
   useEffect(() => {
@@ -9,14 +10,9 @@ export default function NotFound() {
 
   return (
     <Layout>
+      <SEO title="404 Not Found | Jerome Tolentino" />
       <div class=" text-white h-full flex items-center">
         <div class="mx-auto items-center justify-center mt-16 p-4 flex flex-wrap w-full">
-          {/* <div class="w-full md:w-5/12 text-center p-4">
-            <img
-              src="https://themichailov.com/img/not-found.svg"
-              alt="Not Found"
-            />
-          </div> */}
           <div class="w-full md:w-7/12 text-center md:text-left p-4">
             <div class="text-6xl font-medium text-black">404</div>
             <div class="text-xl md:text-3xl font-medium mb-4">

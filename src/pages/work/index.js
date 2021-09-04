@@ -4,30 +4,20 @@ import Layout from "../../components/Layout"
 import Img from "gatsby-image"
 import { portfolio, projects } from "../../styles/projects.module.css"
 import Card from "../../components/Card"
+import SEO from "../../components/seo"
 
 export default function WorkIndex({ data }) {
   const projectArray = data.projects.nodes
   const contact = data.contact.siteMetadata.contact
 
-  useEffect(() => {
-    document.title = "Work | Jerome Tolentino"
-  }, [])
-
   return (
     <Layout>
+      <SEO title="Work | Jerome Tolentino" />
       <section className="max-h-screen h-auto mt-30 md:-mt-2">
         <div className="max-w-6xl mx-auto px-5 py-0 ">
-          {/* <div className="text-center mb-0 md:mb-20">
-            <h1 className="font-header title-font uppercase  mb-2 text-xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-3xl">
-              Work
-            </h1>
-            <div className="flex mt-6 justify-center">
-              <div className="w-16 h-1 bg-indigo-500 inline-flex"></div>
-            </div>
-          </div> */}
           {/* Start of Wrapper of Cards */}
           <div className="flex flex-wrap sm:-m-4 -mx-4 -mb-10 -mt-4 ">
-            {/* Putt mapping cards here */}
+            {/* Put mapping cards here */}
             {projectArray.map(project => (
               <Card project={project.frontmatter} />
             ))}
