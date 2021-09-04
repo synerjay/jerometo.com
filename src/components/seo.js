@@ -5,16 +5,16 @@ import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
 import defaultMetaImage from "../../static/images/metaImage.png"
 
-const SEO = ({ title, description, image }) => {
+const SEO = ({ title, description }) => {
   const { pathname } = useLocation()
   const { site } = useStaticQuery(query)
 
   const { defaultTitle, defaultDescription, siteUrl } = site.siteMetadata
-
+  console.log(defaultMetaImage)
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
-    image: `${siteUrl}${image || defaultMetaImage}`,
+    image: `${siteUrl}${defaultMetaImage}`,
     url: `${siteUrl}${pathname}`,
   }
 
@@ -49,8 +49,6 @@ SEO.propTypes = {
 SEO.defaultProps = {
   title: null,
   description: null,
-  image: null,
-  article: false,
 }
 
 const query = graphql`
