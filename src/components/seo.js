@@ -3,7 +3,7 @@ import PropTypes from "prop-types"
 import { Helmet } from "react-helmet"
 import { useLocation } from "@reach/router"
 import { useStaticQuery, graphql } from "gatsby"
-import defaultMetaImage from "../../static/images/metaImage.png"
+import defaultMetaImage from "../../static/images/metaImage2.png"
 
 const SEO = ({ title, description }) => {
   const { pathname } = useLocation()

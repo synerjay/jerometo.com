@@ -32,7 +32,7 @@ module.exports = {
     description: "Portfolio page for full stack web developer Jerome Tolentino",
     author: `Jerome Tolentino`,
     url: "http://www.jerometo.com",
-    image: "/images/metaImage.png",
+    image: "/images/metaImage2.png",
     copyright: "This website is copyrighted 2021 Jerome Tolentino",
     contact: "tolent.jay@gmail.com",
   },
