@@ -29,7 +29,8 @@ module.exports = {
   ],
   siteMetadata: {
     title: "Jerome Tolentino | Full Stack Web Developer",
-    description: "Portfolio page for full stack web developer Jerome Tolentino",
+    description:
+      "Portfolio page for full stack web developer Jerome Tolentino specializing in React.js Node.js Express and Django",
     author: `Jerome Tolentino`,
     url: "http://www.jerometo.com",
     image: "/images/metaImage2.png",

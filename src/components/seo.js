@@ -10,7 +10,6 @@ const SEO = ({ title, description }) => {
   const { site } = useStaticQuery(query)
 
   const { defaultTitle, defaultDescription, siteUrl } = site.siteMetadata
-  console.log(defaultMetaImage)
   const seo = {
     title: title || defaultTitle,
     description: description || defaultDescription,
