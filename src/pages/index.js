@@ -26,8 +26,8 @@ export default function Home({ data }) {
               Toronto Canada building web apps since 2020 while working as a
               teacher. I rediscovered my passion in building sleek innovative
               design-oriented web applications and contributing to open source
-              projects. I invite you to get to know me better by getting a copy
-              of my{" "}
+              projects. I'd like to invite you to get to know me better by
+              getting a copy of my{" "}
               <a
                 href="resume.pdf"
                 target="_blank"
