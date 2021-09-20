@@ -1,14 +1,14 @@
 ---
-title: The Drum Stop
-stack: Next.js
-description: Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-source: http://sourcecode.com
-live: http://livelink.com
+title: Pomodoro Clock
+stack: React, Tailwind CSS
+description: A pomodoro clock app that tracks session and break time intervals with a sleek UI
+source: https://github.com/synerjay/pomodoro-clock
+live: https://synerjay.github.io/pomodoro-clock/
 type: side
-slug: the-drum-stop
-date: 2021-01-18T00:00:00+00:00
-thumb: ../images/thumbs/drums.png
-featuredImg: ../images/featured/drums-banner.png
+slug: retro-gaming-zone
+date: 2021-01-03T00:00:00+00:00
+thumb: ../images/thumbs/PomodoroClock.png
+featuredImg: ../images/featured/gaming-banner.png
 ---
 
 Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut ninja wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit ninja lobortis nisl ut aliquip ex ea commodo consequat. Duis ninja autem vel eum iriure dolor in hendrerit in vulputate ninja velit esse molestie consequat, vel illum dolore eu feugiat nulla ninja facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Nam ninja ipsum liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer possim assum. Typi ninja non habent claritatem insitam; est usus legentis in iis qui facit eorum claritatem. Investigationes ninja demonstraverunt lectores legere me lius quod ii legunt saepius. Claritas ninja est etiam processus dynamicus, qui ninja sequitur mutationem consuetudium lectorum. Mirum ninja est notare quam littera gothica, quam nunc putamus parum claram, anteposuerit litterarum formas humanitatis per seacula quarta decima et quinta decima. Eodem ninja ipsum modo typi, qui nunc nobis videntur parum clari, fiant sollemnes in ninja futurum.

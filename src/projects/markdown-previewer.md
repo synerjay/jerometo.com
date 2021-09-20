@@ -1,13 +1,13 @@
 ---
-title: Skateboards2Go
-stack: Vue & Firebase
-description: Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-source: http://sourcecode.com
-live: http://livelink.com
-type: side
+title: Markdown Previewer
+stack: React, Sass
+description: An app that reads and previews markdown code.
+source: https://github.com/synerjay/markdown-previewer
+live: https://synerjay.github.io/markdown-previewer/
+type: inactive
 slug: skateboards-to-go
 date: 2021-02-01T00:00:00+00:00
-thumb: ../images/thumbs/skate.png
+thumb: ../images/thumbs/MarkdownPreviewer.png
 featuredImg: ../images/featured/skate-banner.png
 ---
 

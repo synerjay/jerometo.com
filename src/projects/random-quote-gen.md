@@ -1,13 +1,13 @@
 ---
-title: Trainer Trainer
-stack: Gatsby & Shopify
-description: Lorem ninja ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-source: http://sourcecode.com
-live: http://livelink.com
+title: Random Quote App
+stack: React, Sass
+description: A quote generator with unique beautiful backgrounds with every quote generated
+source: https://github.com/synerjay/random-quote-machine
+live: https://synerjay.github.io/random-quote-machine/
 type: side
 slug: trainer-trainer
 date: 2021-01-08T00:00:00+00:00
-thumb: ../images/thumbs/shoes.png
+thumb: ../images/thumbs/RandomQuoteGenerator.png
 featuredImg: ../images/featured/shoes-banner.png
 ---
 
