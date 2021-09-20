@@ -22,12 +22,12 @@ export default function Home({ data }) {
         <div className="flex flex-col-reverse gap-y-7 md:gap-y-0 md:gap-x-16 md:flex-row mt-2 md:mt-10 items-center w-full">
           <div className="flex flex-col items-center md:items-start w-full md:w-11/12   ">
             <p className="text-md leading-9 text-justify w-full px-5 md:px-16">
-              Hello! I am Jerome, a self-taught full stack web developer from
-              Toronto Canada building web apps since 2020 while working as a
-              teacher. I rediscovered my passion in building sleek innovative
-              design-oriented web applications and contributing to open source
-              projects. I'd like to invite you to get to know me better by
-              getting a copy of my{" "}
+              Hello! I am Jerome, a self-taught web developer from Toronto
+              Canada building web apps since 2020 while working as a teacher. I
+              rediscovered my passion in building sleek elegant design-oriented
+              web applications and contributing to open source projects. I'd
+              like to invite you to get to know me better by getting a copy of
+              my{" "}
               <a
                 href="resume.pdf"
                 target="_blank"
