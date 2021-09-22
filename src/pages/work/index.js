@@ -23,7 +23,7 @@ export default function WorkIndex({ data }) {
               ))}
           </div>
           <div className="text-left my-5 md:my-7">
-            <h1 className="font-header title-font uppercase  mb-4 text-xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-3xl">
+            <h1 className="font-header text-center title-font uppercase  mb-4 text-xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-3xl">
               Side Projects
             </h1>
             <div className="flex my-6 justify-center">
