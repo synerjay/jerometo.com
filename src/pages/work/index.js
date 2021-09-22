@@ -22,7 +22,7 @@ export default function WorkIndex({ data }) {
                 <Card project={project.frontmatter} />
               ))}
           </div>
-          <div className="text-center my-5 md:my-7">
+          <div className="text-left my-5 md:my-7">
             <h1 className="font-header title-font uppercase  mb-4 text-xl leading-10 tracking-tight sm:text-5xl sm:leading-none md:text-3xl">
               Side Projects
             </h1>
