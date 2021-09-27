@@ -1,6 +1,6 @@
 ---
 title: Pomodoro Clock
-stack: React, Tailwind CSS
+stack: React, TypeScript, Tailwind CSS
 description: A pomodoro clock app that tracks session and break time intervals with a sleek UI
 source: https://github.com/synerjay/pomodoro-clock
 live: https://synerjay.github.io/pomodoro-clock/

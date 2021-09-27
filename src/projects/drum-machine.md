@@ -1,6 +1,6 @@
 ---
 title: Drum Machine
-stack: React, Tailwind CSS
+stack: React, TypeScript, Tailwind CSS
 description: A standard drum machine with keyboard press functionality.
 source: https://github.com/synerjay/drum-machine-react-app
 live: https://synerjay.github.io/drum-machine-react-app/

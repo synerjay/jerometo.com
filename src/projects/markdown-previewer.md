@@ -1,6 +1,6 @@
 ---
 title: Markdown Previewer
-stack: React, Sass
+stack: React, TypeScript, Sass
 description: An app that reads and previews markdown code.
 source: https://github.com/synerjay/markdown-previewer
 live: https://synerjay.github.io/markdown-previewer/

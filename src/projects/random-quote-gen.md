@@ -1,6 +1,6 @@
 ---
 title: Random Quote App
-stack: React, Sass
+stack: React, TypeScript, Sass
 description: A quote generator with unique beautiful backgrounds with every quote generated
 source: https://github.com/synerjay/random-quote-machine
 live: https://synerjay.github.io/random-quote-machine/
