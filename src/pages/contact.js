@@ -27,6 +27,7 @@ export default function Contact() {
           <div className="flex w-full items-center justify-center mt-5 gap-x-16">
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://github.com/synerjay"
               className="w-7 h-7 hover:shadow-xl transform hover:text-theme-accent hover:-translate-y-1.5 transition duration-500"
             >
@@ -48,6 +49,7 @@ export default function Contact() {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="https://twitter.com/jeromesoftdev"
               className="w-7 h-7 hover:shadow-xl transform hover:-translate-y-1.5 transition duration-500"
             >
@@ -69,6 +71,7 @@ export default function Contact() {
             </a>
             <a
               target="_blank"
+              rel="noreferrer"
               href="mailto:tolent.jay@gmail.com"
               className="h-7 w-7 hover:shadow-xl transform hover:-translate-y-1.5 transition duration-500"
             >
@@ -109,7 +112,7 @@ export default function Contact() {
                 required
               />
               <label
-                for="name"
+                htmlFor="name"
                 className="absolute tracking-wide py-2 px-4 mb-4 opacity-0 leading-tight block top-0 left-0 cursor-text"
               >
                 YOUR NAME
@@ -128,7 +131,7 @@ export default function Contact() {
                 required
               />
               <label
-                for="name"
+                htmlFor="name"
                 className="absolute tracking-wide py-2 px-4 mb-4 opacity-0 leading-tight block top-0 left-0 cursor-text"
               >
                 YOUR EMAIL ADDRESS
@@ -146,7 +149,7 @@ export default function Contact() {
                 placeholder="SEND ME A MESSAGE"
               ></textarea>
               <label
-                for="message"
+                htmlFor="message"
                 className="absolute tracking-wide py-2 px-4 mb-4 opacity-0 leading-tight block top-0 left-0 cursor-text"
               >
                 SEND ME A MESSAGE

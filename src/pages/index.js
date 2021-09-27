@@ -1,8 +1,8 @@
 import { graphql, Link } from "gatsby"
-import React, { useEffect } from "react"
+import React from "react"
 import Layout from "../components/Layout"
 import Img from "gatsby-image"
-import { header, btn } from "../styles/home.module.css" // <-- changes in Gatsby v3 - CSS needs to be destructured to be used in the tags
+import { header } from "../styles/home.module.css" // <-- changes in Gatsby v3 - CSS needs to be destructured to be used in the tags
 import SEO from "../components/seo"
 
 // The styles module is a CSS styling to scope one component of the site.

@@ -6,7 +6,6 @@ import SEO from "../../components/seo"
 
 export default function WorkIndex({ data }) {
   const projectArray = data.projects.nodes
-  const contact = data.contact.siteMetadata.contact
 
   return (
     <Layout>
