@@ -2,11 +2,11 @@
 title: Landing Page
 stack: Next.js, React, Tailwind CSS
 description: A general landing page template complete with pricing and hero sections
-source: https://github.com/synerjay/random-quote-machine
-live: https://synerjay.github.io/random-quote-machine/
+source: https://github.com/synerjay/landing-page-template-nextjs
+live: https://landing-page-template-nextjs.vercel.app/
 type: side
 slug: trainer-trainer
-date: 2021-01-08T00:00:00+00:00
+date: 2021-01-01T00:00:00+00:00
 thumb: ../images/thumbs/landingpage.png
 featuredImg: ../images/featured/shoes-banner.png
 ---
