@@ -50,7 +50,7 @@ export default function Contact() {
             <a
               target="_blank"
               rel="noreferrer"
-              href="https://twitter.com/jeromesoftdev"
+              href="https://twitter.com/jeromeintokyo"
               className="w-7 h-7 hover:shadow-xl transform hover:-translate-y-1.5 transition duration-500"
             >
               <svg
