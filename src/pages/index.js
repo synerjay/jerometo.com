@@ -22,10 +22,13 @@ export default function Home({ data }) {
         <div className="flex flex-col-reverse gap-y-7 md:gap-y-0 md:gap-x-16 md:flex-row mt-2 md:mt-10 items-center w-full">
           <div className="flex flex-col items-center md:items-start w-full md:w-11/12   ">
             <p className="text-md leading-9 text-justify w-full px-5 md:px-16">
-              Hello! I am Jerome, a self-taught web developer from Toronto
-              Canada building web apps from frontend to back. I rediscovered my
+              Hello! I am Jerome, a software developer from Toronto Canada
+              building web solutions from frontend to back. I rediscovered my
               passion in building sleek elegant design-oriented web applications
-              and contributing to open source projects. I'd like to invite you
+              and contributing to open source projects. I'm currently working as
+              a Solutions Engineer Associate at a world-leading ad tech
+              verification company, Integral Ad Science at their Tokyo office.
+              {/* I'd like to invite you
               to get to know me better by getting a copy of my{" "}
               <a
                 href="resume.pdf"
@@ -41,7 +44,7 @@ export default function Home({ data }) {
               >
                 contacting me
               </Link>
-              .
+              . */}
             </p>
             <Link
               className="border-2 mt-5 border-black mr-3 cursor-pointer inline-flex items-center leading-none h-10 shadow-inner bg-white hover:bg-theme-accent hover:text-white transition ease-in-out duration-700 focus:shadow-outline focus:outline-none text-black uppercase font-bold text-sm py-2 px-4 md:mx-16"
